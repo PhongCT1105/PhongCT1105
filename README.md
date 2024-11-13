@@ -8,7 +8,7 @@
 
 # <img src="https://github.com/user-attachments/assets/c8682495-846a-4de8-9890-8d15f36bab3c" width="25" height="25"> Hello, I'm Phong Cao! 👋 
 
-I'm a **Computer Science** and **Artificial Intelligence** student at **Worcester Polytechnic Institute**, expected to graduate in 2026. I am passionate about leveraging AI and data science to create impactful solutions. My experience spans machine learning, data science, full-stack development, and AI-driven solutions.
+I'm a **Computer Science** and **Artificial Intelligence** BS/MS student at **Worcester Polytechnic Institute**, expected to graduate in 2026. I am passionate about leveraging AI and data science to create impactful solutions. My experience spans machine learning, data science, MLOps, full-stack development, and AI-driven solutions.
 
 ### 🎓 Education
 - **Worcester Polytechnic Institute**  

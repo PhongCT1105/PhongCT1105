@@ -1,5 +1,7 @@
 ## Hello, I'm Phong Cao! 👋
+
 **`AI Developer (MLOps/LLMOps/Machine Learning/Web dev)`**
+
 Welcome to my GitHub! I'm a dedicated Computer Science and Artificial Intelligence student at Worcester Polytechnic Institute, with a passion for leveraging AI and data science to solve impactful problems. Here, you'll find a collection of my work, including projects that showcase my skills in AI, machine learning, and full-stack development.
 <!--
 **PhongCT1105/PhongCT1105** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

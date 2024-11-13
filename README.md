@@ -1,3 +1,5 @@
+# 👋 Hello, I'm Phong Cao!
+
 <p align="center">
   <a href="https://github.com/PhongCT1105">
     <img src="https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+GitHub+profile!&center=true&width=500&height=50" alt="Typing SVG">
@@ -5,8 +7,6 @@
 </p>
 
 ---
-
-# 👋 Hello, I'm Phong Cao!
 
 ## About Me
 

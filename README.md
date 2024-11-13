@@ -1,12 +1,12 @@
 <p align="center">
   <a href="https://github.com/PhongCT1105">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Hello,+I'm+Phong+Cao!;AI+&+ML+Enthusiast;Full-Stack+Developer;Always+Learning+New+Things!&center=true&width=500&height=50" alt="Typing SVG">
+    <img src="https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+GitHub+profile!&center=true&width=500&height=50" alt="Typing SVG">
   </a>
 </p>
 
 ---
 
-# 👋 Hi, I'm Phong Cao
+# 👋 About Me
 
 I'm **Phong Cao**, a **Computer Science** and **Artificial Intelligence** student at **Worcester Polytechnic Institute**, expected to graduate in 2026. I am passionate about leveraging AI and data science to create impactful solutions. My experience spans machine learning, data science, full-stack development, and AI-driven solutions.
 

@@ -1,10 +1,6 @@
 # 👋 Hello, I'm Phong Cao!
 
-<p align="center">
-  <a href="https://github.com/PhongCT1105">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+GitHub+profile!&center=true&width=500&height=50" alt="Typing SVG">
-  </a>
-</p>
+![Welcome](https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+GitHub+profile!&center=true&width=500&height=50)
 
 ---
 
@@ -37,7 +33,7 @@ I'm **Phong Cao**, a **Computer Science** and **Artificial Intelligence** studen
   Developed a CNN-based clinical decision support system for diagnosing pneumonia and pulmonary edema, achieving an F1 score of 0.835 and winning a Gold Medal at INOVA Croatia 2022.
 
 ### 🔍 Projects
-- **Lead Software Engineering – Hospital Management System**  
+- **Lead Software Engineering – Hospital Management System** [![GitHub Repository](https://img.shields.io/badge/Repository-Click_Here-181717?style=flat&logo=github&logoColor=white)](https://github.com/PhongCT1105/CS3733_Project)  
   Led a team of 11 to develop a hospital management system with real-time ML-based task scheduling, integrating PostgreSQL and AWS deployment, achieving 90% accuracy in scheduling.
 
 - **Urban Traffic Monitoring System**  

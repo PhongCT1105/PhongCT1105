@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/PhongCT1105">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+GitHub+profile!&center=true&width=500&height=50" alt="Typing SVG">
+    <img src="https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+GitHub+profile!&center=true&width=800&height=80" alt="Typing SVG">
   </a>
 </p>
 

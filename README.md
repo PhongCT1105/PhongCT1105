@@ -11,8 +11,12 @@
 I'm a **Computer Science** and **Artificial Intelligence** BS/MS student at **Worcester Polytechnic Institute**, expected to graduate in 2026. I am passionate about leveraging AI and data science to create impactful solutions. My experience spans machine learning, data science, MLOps, full-stack development, and AI-driven solutions.
 
 ### 🛠 Skills
-- **Programming Languages**: Python, C/C++, TypeScript, JavaScript, Java, SQL
-- **Frameworks & Tools**: PyTorch, TensorFlow, Scikit-learn, Keras, LangChain, React.js, NodeJS, Prisma ORM, Azure AI Vision, Cosmos DB, AWS EC2, Flask, PostgreSQL, MySQL, and more
+- **Programming Languages**:  
+  [![My Skills](https://skillicons.dev/icons?i=python,cpp,typescript,javascript,java,sql&perline=6)](https://skillicons.dev)
+- **Frameworks & Tools**:  
+  [![My Skills](https://skillicons.dev/icons?i=pytorch,tensorflow,react,nodejs,flask,postgres&perline=6)](https://skillicons.dev)
+- **Cloud and DevOps**:  
+  [![My Skills](https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,linux&perline=6)](https://skillicons.dev)
 - **Certifications**: Microsoft Certified Azure AI Engineer Associate (in-progress)
 
 ### 💼 Experience

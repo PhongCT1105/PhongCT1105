@@ -11,13 +11,14 @@
 I'm a **Computer Science** and **Artificial Intelligence** BS/MS student at **Worcester Polytechnic Institute**, expected to graduate in 2026. I am passionate about leveraging AI and data science to create impactful solutions. My experience spans machine learning, data science, MLOps, full-stack development, and AI-driven solutions.
 
 ### 🛠 Skills
-- **Programming Languages**:  
-  [![My Skills](https://skillicons.dev/icons?i=python,cpp,typescript,javascript,java,sql&perline=6)](https://skillicons.dev)
-- **Frameworks & Tools**:  
-  [![My Skills](https://skillicons.dev/icons?i=pytorch,tensorflow,react,nodejs,flask,postgres&perline=6)](https://skillicons.dev)
-- **Cloud and DevOps**:  
-  [![My Skills](https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,linux&perline=6)](https://skillicons.dev)
+- **Programming Languages**: [![Python](https://skillicons.dev/icons?i=python)](https://skillicons.dev) [![C](https://skillicons.dev/icons?i=c)](https://skillicons.dev) [![C++](https://skillicons.dev/icons?i=cpp)](https://skillicons.dev) [![TypeScript](https://skillicons.dev/icons?i=typescript)](https://skillicons.dev) [![JavaScript](https://skillicons.dev/icons?i=javascript)](https://skillicons.dev) [![Java](https://skillicons.dev/icons?i=java)](https://skillicons.dev)
+
+- **Frameworks & Tools**: [![PyTorch](https://skillicons.dev/icons?i=pytorch)](https://skillicons.dev) [![TensorFlow](https://skillicons.dev/icons?i=tensorflow)](https://skillicons.dev) [![React](https://skillicons.dev/icons?i=react)](https://skillicons.dev) [![Node.js](https://skillicons.dev/icons?i=nodejs)](https://skillicons.dev) [![Flask](https://skillicons.dev/icons?i=flask)](https://skillicons.dev) [![PostgreSQL](https://skillicons.dev/icons?i=postgres)](https://skillicons.dev)
+
+- **Cloud and DevOps**: [![AWS](https://skillicons.dev/icons?i=aws)](https://skillicons.dev) [![Azure](https://skillicons.dev/icons?i=azure)](https://skillicons.dev) [![GCP](https://skillicons.dev/icons?i=gcp)](https://skillicons.dev) [![Docker](https://skillicons.dev/icons?i=docker)](https://skillicons.dev) [![Kubernetes](https://skillicons.dev/icons?i=kubernetes)](https://skillicons.dev) [![Linux](https://skillicons.dev/icons?i=linux)](https://skillicons.dev)
+
 - **Certifications**: Microsoft Certified Azure AI Engineer Associate (in-progress)
+
 
 ### 💼 Experience
 - **Machine Learning Intern (MLOps) @ FPT Software, Vietnam**  

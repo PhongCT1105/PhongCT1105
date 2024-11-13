@@ -1,24 +1,26 @@
-<p align="center">
-  <a href="https://github.com/PhongCT1105">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+GitHub+profile!&center=true&width=500&height=50" alt="Typing SVG">
-  </a>
-</p>
+# 👋 Hello, I'm Phong Cao!
+
+![Welcome](https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+GitHub+profile!&center=true&width=500&height=50)
 
 ---
 
-# <img src="https://github.com/user-attachments/assets/c8682495-846a-4de8-9890-8d15f36bab3c" width="25" height="25"> Hello, I'm Phong Cao! 👋 
+## About Me
 
-I'm a **Computer Science** and **Artificial Intelligence** BS/MS student at **Worcester Polytechnic Institute**, expected to graduate in 2026. I am passionate about leveraging AI and data science to create impactful solutions. My experience spans machine learning, data science, MLOps, full-stack development, and AI-driven solutions.
+I'm **Phong Cao**, a **Computer Science** and **Artificial Intelligence** student at **Worcester Polytechnic Institute**, expected to graduate in 2026. I am passionate about leveraging AI and data science to create impactful solutions. My experience spans machine learning, data science, full-stack development, and AI-driven solutions.
+
+### 🎓 Education
+- **Worcester Polytechnic Institute**  
+  - **M.S. in Artificial Intelligence, B.S. in Computer Science** (Expected 2026)
+  - **GPA**: 3.94 | **Dean’s List**
 
 ### 🛠 Skills
-- **Programming Languages**: [![Python](https://skillicons.dev/icons?i=python)](https://skillicons.dev) [![C](https://skillicons.dev/icons?i=c)](https://skillicons.dev) [![C++](https://skillicons.dev/icons?i=cpp)](https://skillicons.dev) [![TypeScript](https://skillicons.dev/icons?i=typescript)](https://skillicons.dev) [![JavaScript](https://skillicons.dev/icons?i=javascript)](https://skillicons.dev) [![Java](https://skillicons.dev/icons?i=java)](https://skillicons.dev)
 
-- **Frameworks & Tools**: [![PyTorch](https://skillicons.dev/icons?i=pytorch)](https://skillicons.dev) [![TensorFlow](https://skillicons.dev/icons?i=tensorflow)](https://skillicons.dev) [![React](https://skillicons.dev/icons?i=react)](https://skillicons.dev) [![Node.js](https://skillicons.dev/icons?i=nodejs)](https://skillicons.dev) [![Flask](https://skillicons.dev/icons?i=flask)](https://skillicons.dev) [![PostgreSQL](https://skillicons.dev/icons?i=postgres)](https://skillicons.dev)
-
-- **Cloud and DevOps**: [![AWS](https://skillicons.dev/icons?i=aws)](https://skillicons.dev) [![Azure](https://skillicons.dev/icons?i=azure)](https://skillicons.dev) [![GCP](https://skillicons.dev/icons?i=gcp)](https://skillicons.dev) [![Docker](https://skillicons.dev/icons?i=docker)](https://skillicons.dev) [![Kubernetes](https://skillicons.dev/icons?i=kubernetes)](https://skillicons.dev) [![Linux](https://skillicons.dev/icons?i=linux)](https://skillicons.dev)
-
-- **Certifications**: Microsoft Certified Azure AI Engineer Associate (in-progress)
-
+| Category                  | Skills                                                                                                                                                                                                                                       |
+|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Programming Languages** | [![Python](https://skillicons.dev/icons?i=python)](https://skillicons.dev) [![C](https://skillicons.dev/icons?i=c)](https://skillicons.dev) [![C++](https://skillicons.dev/icons?i=cpp)](https://skillicons.dev) [![TypeScript](https://skillicons.dev/icons?i=typescript)](https://skillicons.dev) [![JavaScript](https://skillicons.dev/icons?i=javascript)](https://skillicons.dev) [![Java](https://skillicons.dev/icons?i=java)](https://skillicons.dev) |
+| **Frameworks & Tools**    | [![PyTorch](https://skillicons.dev/icons?i=pytorch)](https://skillicons.dev) [![TensorFlow](https://skillicons.dev/icons?i=tensorflow)](https://skillicons.dev) [![React](https://skillicons.dev/icons?i=react)](https://skillicons.dev) [![Node.js](https://skillicons.dev/icons?i=nodejs)](https://skillicons.dev) [![Flask](https://skillicons.dev/icons?i=flask)](https://skillicons.dev) [![PostgreSQL](https://skillicons.dev/icons?i=postgres)](https://skillicons.dev) |
+| **Cloud and DevOps**      | [![AWS](https://skillicons.dev/icons?i=aws)](https://skillicons.dev) [![Azure](https://skillicons.dev/icons?i=azure)](https://skillicons.dev) [![GCP](https://skillicons.dev/icons?i=gcp)](https://skillicons.dev) [![Docker](https://skillicons.dev/icons?i=docker)](https://skillicons.dev) [![Kubernetes](https://skillicons.dev/icons?i=kubernetes)](https://skillicons.dev) [![Linux](https://skillicons.dev/icons?i=linux)](https://skillicons.dev) |
+| **Certifications**        | Microsoft Certified Azure AI Engineer Associate (in-progress)                                                                                                                                                                               |
 
 ### 💼 Experience
 - **Machine Learning Intern (MLOps) @ FPT Software, Vietnam**  

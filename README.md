@@ -1,8 +1,12 @@
-# 👋 Hello, I'm Phong Cao!
-
-![Welcome](https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+GitHub+profile!&center=true&width=500&height=50)
+<p align="center">
+  <a href="https://github.com/PhongCT1105">
+    <img src="https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+GitHub+profile!&center=true&width=500&height=50" alt="Typing SVG">
+  </a>
+</p>
 
 ---
+
+# 👋 Hello, I'm Phong Cao!
 
 ## About Me
 
@@ -19,7 +23,7 @@ I'm **Phong Cao**, a **Computer Science** and **Artificial Intelligence** studen
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Programming Languages** | [![Python](https://skillicons.dev/icons?i=python)](https://skillicons.dev) [![C](https://skillicons.dev/icons?i=c)](https://skillicons.dev) [![C++](https://skillicons.dev/icons?i=cpp)](https://skillicons.dev) [![TypeScript](https://skillicons.dev/icons?i=typescript)](https://skillicons.dev) [![JavaScript](https://skillicons.dev/icons?i=javascript)](https://skillicons.dev) [![Java](https://skillicons.dev/icons?i=java)](https://skillicons.dev) |
 | **Frameworks & Tools**    | [![PyTorch](https://skillicons.dev/icons?i=pytorch)](https://skillicons.dev) [![TensorFlow](https://skillicons.dev/icons?i=tensorflow)](https://skillicons.dev) [![React](https://skillicons.dev/icons?i=react)](https://skillicons.dev) [![Node.js](https://skillicons.dev/icons?i=nodejs)](https://skillicons.dev) [![Flask](https://skillicons.dev/icons?i=flask)](https://skillicons.dev) [![PostgreSQL](https://skillicons.dev/icons?i=postgres)](https://skillicons.dev) |
-| **MLOps and DevOps**      | [![AWS](https://skillicons.dev/icons?i=aws)](https://skillicons.dev) [![Azure](https://skillicons.dev/icons?i=azure)](https://skillicons.dev) [![GCP](https://skillicons.dev/icons?i=gcp)](https://skillicons.dev) [![Docker](https://skillicons.dev/icons?i=docker)](https://skillicons.dev) [![Kubernetes](https://skillicons.dev/icons?i=kubernetes)](https://skillicons.dev) [![Linux](https://skillicons.dev/icons?i=linux)](https://skillicons.dev) |
+| **Cloud and DevOps**      | [![AWS](https://skillicons.dev/icons?i=aws)](https://skillicons.dev) [![Azure](https://skillicons.dev/icons?i=azure)](https://skillicons.dev) [![GCP](https://skillicons.dev/icons?i=gcp)](https://skillicons.dev) [![Docker](https://skillicons.dev/icons?i=docker)](https://skillicons.dev) [![Kubernetes](https://skillicons.dev/icons?i=kubernetes)](https://skillicons.dev) [![Linux](https://skillicons.dev/icons?i=linux)](https://skillicons.dev) |
 | **Certifications**        | Microsoft Certified Azure AI Engineer Associate (in-progress)                                                                                                                                                                               |
 
 ### 💼 Experience

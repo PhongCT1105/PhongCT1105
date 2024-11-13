@@ -10,11 +10,6 @@
 
 I'm a **Computer Science** and **Artificial Intelligence** BS/MS student at **Worcester Polytechnic Institute**, expected to graduate in 2026. I am passionate about leveraging AI and data science to create impactful solutions. My experience spans machine learning, data science, MLOps, full-stack development, and AI-driven solutions.
 
-### 🎓 Education
-- **Worcester Polytechnic Institute**  
-  - **M.S. in Artificial Intelligence, B.S. in Computer Science** (Expected 2026)
-  - **GPA**: 3.94 | **Dean’s List**
-
 ### 🛠 Skills
 - **Programming Languages**: Python, C/C++, TypeScript, JavaScript, Java, SQL
 - **Frameworks & Tools**: PyTorch, TensorFlow, Scikit-learn, Keras, LangChain, React.js, NodeJS, Prisma ORM, Azure AI Vision, Cosmos DB, AWS EC2, Flask, PostgreSQL, MySQL, and more

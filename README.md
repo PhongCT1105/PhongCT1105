@@ -1,4 +1,4 @@
-## Hello, I'm Phong Cao! 👋
+# Hello, I'm Phong Cao! 👋
 
 **`AI Developer (MLOps/LLMOps/Machine Learning/Web dev)`**
 

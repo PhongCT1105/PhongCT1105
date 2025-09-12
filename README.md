@@ -10,7 +10,7 @@
 
 ## About Me
 
-I'm **Phong Cao**, a **Computer Science** and **Artificial Intelligence** student at **Worcester Polytechnic Institute**, expected to graduate in 2026. I am passionate about leveraging AI and data science to create impactful solutions. My experience spans machine learning, data science, full-stack development, and AI-driven solutions.
+I'm **Phong Cao**, a **Computer Science** and **Artificial Intelligence** student at **Worcester Polytechnic Institute**. I am passionate about leveraging AI and data science to create impactful solutions. My experience spans machine learning, data science, full-stack development, and AI-driven solutions.
 
 ### 🎓 Education
 - **Worcester Polytechnic Institute**  

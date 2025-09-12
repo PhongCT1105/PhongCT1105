@@ -14,8 +14,7 @@ I'm **Phong Cao**, a **Computer Science** and **Artificial Intelligence** studen
 
 ### 🎓 Education
 - **Worcester Polytechnic Institute**  
-  - **M.S. in Artificial Intelligence, B.S. in Computer Science** (Expected 2026)
-  - **GPA**: 3.94 | **Dean’s List**
+  - **M.S. in Artificial Intelligence, B.S. in Computer Science** (Expected 2027)
 
 ### 🛠 Skills
 

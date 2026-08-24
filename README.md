@@ -1,58 +1,64 @@
+<!-- Variant 03 — Neon Glow / AI Builder · part of the readme-redesign branch · see ../README.md for the index -->
+
 <p align="center">
-  <a href="https://github.com/PhongCT1105">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+GitHub+profile!&center=true&width=800&height=80" alt="Typing SVG">
-  </a>
+  <img src="../../assets/neon/hero-neon.svg" alt="Neon banner — Phong Cao, AI builder: LLM systems, ML infrastructure, agents" width="920">
 </p>
 
----
+<p align="center">
+  <img src="../../assets/neon/divider.svg" alt="" width="920">
+</p>
 
-# 👋 Hello, I'm Phong Cao!
+## ⚡ What I Build
 
-## About Me
+I build the machinery around models — the part that makes AI actually usable:
+**distributed training engines**, **on-device inference pipelines**, **agent tool infrastructure**, and **evaluation systems that catch hallucinations before users do**.
 
-I'm **Phong Cao**, a **Computer Science** and **Artificial Intelligence** student at **Worcester Polytechnic Institute**. I am passionate about leveraging AI and data science to create impactful solutions. My experience spans machine learning, data science, full-stack development, and AI-driven solutions.
+## 🚀 Flagship Projects
 
-### 🎓 Education
-- **Worcester Polytechnic Institute**  
-  - **M.S. in Artificial Intelligence, B.S. in Computer Science** (Expected 2027)
+### [FlashML](https://github.com/PhongCT1105/FlashML) &nbsp; ![status](https://img.shields.io/badge/●_active-4ade80?style=flat-square&labelColor=0b0d17&color=0b0d17&logoColor=4ade80)
 
-### 🛠 Skills
+> **Distributed ML you can watch.** A serverless playground on Runpod Flash that runs three real distributed architectures — MapReduce K-Means, parameter-server gradient sync, and embarrassingly-parallel hyperparameter search — on live workers, with the execution graph animating in React Flow.
 
-| Category                  | Skills                                                                                                                                                                                                                                       |
-|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Programming Languages** | [![Python](https://skillicons.dev/icons?i=python)](https://skillicons.dev) [![C](https://skillicons.dev/icons?i=c)](https://skillicons.dev) [![C++](https://skillicons.dev/icons?i=cpp)](https://skillicons.dev) [![TypeScript](https://skillicons.dev/icons?i=typescript)](https://skillicons.dev) [![JavaScript](https://skillicons.dev/icons?i=javascript)](https://skillicons.dev) [![Java](https://skillicons.dev/icons?i=java)](https://skillicons.dev) |
-| **Frameworks & Tools**    | [![PyTorch](https://skillicons.dev/icons?i=pytorch)](https://skillicons.dev) [![TensorFlow](https://skillicons.dev/icons?i=tensorflow)](https://skillicons.dev) [![React](https://skillicons.dev/icons?i=react)](https://skillicons.dev) [![Node.js](https://skillicons.dev/icons?i=nodejs)](https://skillicons.dev) [![Flask](https://skillicons.dev/icons?i=flask)](https://skillicons.dev) [![PostgreSQL](https://skillicons.dev/icons?i=postgres)](https://skillicons.dev) |
-| **Cloud and DevOps**      | [![AWS](https://skillicons.dev/icons?i=aws)](https://skillicons.dev) [![Azure](https://skillicons.dev/icons?i=azure)](https://skillicons.dev) [![GCP](https://skillicons.dev/icons?i=gcp)](https://skillicons.dev) [![Docker](https://skillicons.dev/icons?i=docker)](https://skillicons.dev) [![Kubernetes](https://skillicons.dev/icons?i=kubernetes)](https://skillicons.dev) [![Linux](https://skillicons.dev/icons?i=linux)](https://skillicons.dev) |
-| **Certifications**        | Microsoft Certified Azure AI Engineer Associate (in-progress)                                                                                                                                                                               |
+![TypeScript](https://img.shields.io/badge/TypeScript-c084fc?style=flat-square&labelColor=1a1030) ![Python](https://img.shields.io/badge/Python-22d3ee?style=flat-square&labelColor=0e2430) ![Runpod Flash](https://img.shields.io/badge/Runpod_Flash-4ade80?style=flat-square&labelColor=0e2a1a)
 
-### 💼 Experience
-- **Machine Learning Intern (MLOps) @ FPT Software, Vietnam**  
-  Developed an AI-powered image clustering system for wedding album management, utilizing Azure AI Vision, Cosmos DB, and Blob Storage. Enhanced model accuracy by 15% and projected $27,000 in monthly revenue potential.
+### [Harbor](https://github.com/PhongCT1105/Harbor) &nbsp; ![status](https://img.shields.io/badge/●_active-4ade80?style=flat-square&labelColor=0b0d17&color=0b0d17&logoColor=4ade80)
 
-- **Data Science Intern @ FPT Software, Vietnam**  
-  Created a ground truth database for human pose detection with 10,000 labeled images, achieving 88% accuracy for real-time applications in human pose analysis.
+> **The control plane for MCP servers.** Discovers, indexes, ranks and routes thousands of MCP tools so the model only sees the right ones — smaller context, sharper tool calls, one runtime for OpenAI, Anthropic, Gemini or Ollama clients.
 
-- **AI Summer Intern @ Vietnam National University**  
-  Developed a CNN-based clinical decision support system for diagnosing pneumonia and pulmonary edema, achieving an F1 score of 0.835 and winning a Gold Medal at INOVA Croatia 2022.
+![MCP](https://img.shields.io/badge/MCP-c084fc?style=flat-square&labelColor=1a1030) ![Tool Routing](https://img.shields.io/badge/Tool_Routing-22d3ee?style=flat-square&labelColor=0e2430) ![Embeddings](https://img.shields.io/badge/Embeddings-4ade80?style=flat-square&labelColor=0e2a1a)
 
-### 🔍 Projects
-- **Lead Software Engineering – Hospital Management System** [![GitHub Repository](https://img.shields.io/badge/Repository-Click_Here-181717?style=flat&logo=github&logoColor=white)](https://github.com/PhongCT1105/CS3733_Project)  
-  Led a team of 11 to develop a hospital management system with real-time ML-based task scheduling, integrating PostgreSQL and AWS deployment, achieving 90% accuracy in scheduling.
+### [On-Device Real-Estate Assistant](https://github.com/PhongCT1105/On-Device-Real-Estate-Assistant)
 
-- **Urban Traffic Monitoring System**  
-  Developed an AI model with YOLOv5 for vehicle detection and speed calculation, achieving 95% accuracy. Awarded 2nd place at a regional Science and Technology Competition.
+> **A transformer in your pocket.** Domain-tuned FLAN-T5 exported to ONNX and benchmarked on Android ARM64 — measuring how far quantization and optimization can push a QA model on phone hardware without wrecking answer quality.
 
-### 📈 Research
-- **TPC-H Benchmark Analysis**  
-  Analyzed and optimized high-runtime queries on large datasets, proposing strategies to improve query efficiency for business decision-making.
+![PyTorch](https://img.shields.io/badge/PyTorch-c084fc?style=flat-square&labelColor=1a1030) ![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-22d3ee?style=flat-square&labelColor=0e2430) ![Android](https://img.shields.io/badge/Android-4ade80?style=flat-square&labelColor=0e2a1a)
 
----
+## 🧪 Research & Experiments
+
+**[LLM Hallucination Study](https://github.com/PhongCT1105/Hack-Research)** — a claim-level factorial study of AI-generated professor outreach (96 emails · 360 claims · 12 researchers). Headline: ungrounded LLMs fabricate claims **34%** of the time; grounding with real publications drops severe errors to **0%** and doubles supported specificity.
+
+**[GPT from scratch](https://github.com/PhongCT1105/neetcode-gpt)** — a working GPT assembled entirely from self-implemented parts: BPE tokenizer, multi-head + grouped-query attention, KV cache, RMS/layer norm, training and generation loops.
+
+## 🛠 AI/ML Systems Stack
+
+`PyTorch` · `ONNX Runtime` · `Python` · `TypeScript / React` · `FastAPI` · `PostgreSQL` · `Docker` · `AWS` · `Runpod Flash` · `MCP`
+
+## 📡 Signal
 
 <p align="center">
-  <a href="https://github.com/PhongCT1105">
-    <img src="https://img.shields.io/github/followers/PhongCT1105?label=Follow&style=social" alt="GitHub Followers">
-  </a>
-  <a href="https://www.linkedin.com/in/phong-cao">
-    <img src="https://img.shields.io/badge/-Connect-blue?style=social&logo=Linkedin" alt="LinkedIn">
-  </a>
+  <img src="https://streak-stats.demolab.com?user=PhongCT1105&hide_border=true&background=0b0d17&ring=c084fc&fire=22d3ee&currStreakLabel=c084fc&sideLabels=94a3b8&currStreakNum=e2e8f0&sideNums=e2e8f0&dates=64748b" alt="GitHub contribution streak" height="170">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PhongCT1105&bg_color=0b0d17&color=94a3b8&line=c084fc&point=22d3ee&area=true&area_color=c084fc&hide_border=true" alt="Contribution activity graph for PhongCT1105" width="920">
+</p>
+
+## 🔗 Links
+
+[![GitHub](https://img.shields.io/badge/GitHub-PhongCT1105-c084fc?style=for-the-badge&logo=github&labelColor=0b0d17)](https://github.com/PhongCT1105)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-phongct1105-22d3ee?style=for-the-badge&logo=linkedin&labelColor=0b0d17)](https://www.linkedin.com/in/phongct1105)
+[![Email](https://img.shields.io/badge/Email-phongct1105%40gmail.com-4ade80?style=for-the-badge&logo=gmail&labelColor=0b0d17)](mailto:phongct1105@gmail.com)
+
+<p align="center">
+  <img src="../../assets/neon/divider.svg" alt="" width="920">
 </p>

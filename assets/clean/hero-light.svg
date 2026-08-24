@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="236" viewBox="0 0 920 236" role="img" aria-label="Phong Cao — SOFTWARE ENGINEER · ML / AI SYSTEMS. B.S. Computer Science + M.S. Artificial Intelligence @ WPI · 2027.">
+<style>
+.draw{stroke-dasharray:120;stroke-dashoffset:120;animation:draw 2.4s cubic-bezier(.2,.7,.3,1) forwards .4s}
+@keyframes draw{to{stroke-dashoffset:0}}
+.dot{animation:dot 3.2s ease-in-out infinite}
+@keyframes dot{0%,100%{opacity:1}50%{opacity:.35}}
+</style>
+<rect width="920" height="236" fill="#ffffff"/>
+<rect x=".5" y=".5" width="919" height="235" fill="none" stroke="#e5e7eb"/>
+<text x="60" y="102" font-family="Georgia,'Times New Roman',serif" font-size="46" fill="#111827">Phong Cao</text>
+<line class="draw" x1="62" y1="120" x2="182" y2="120" stroke="#2563eb" stroke-width="3"/>
+<text x="60" y="152" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" letter-spacing="2.5" fill="#4b5563">SOFTWARE ENGINEER · ML / AI SYSTEMS</text>
+<text x="60" y="182" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#4b5563">B.S. Computer Science + M.S. Artificial Intelligence @ WPI · 2027</text>
+<circle class="dot" cx="66" cy="205" r="4" fill="#2563eb"/>
+<text x="78" y="209" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" fill="#4b5563">Currently building distributed ML tooling and on-device inference systems</text>
+<line x1="700" y1="40" x2="700" y2="196" stroke="#e5e7eb"/>
+<text x="730" y="76" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" letter-spacing="2" fill="#4b5563">FOCUS</text>
+<text x="730" y="106" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#111827">ML Infrastructure</text>
+<text x="730" y="132" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#111827">On-Device AI</text>
+<text x="730" y="158" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#111827">LLM Evaluation</text>
+<text x="730" y="184" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#111827">Agent Systems</text>
+</svg>

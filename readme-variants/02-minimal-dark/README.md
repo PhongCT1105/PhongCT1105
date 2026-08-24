@@ -82,8 +82,11 @@ Web platform for Brigham & Women's Hospital built with a 11-person team: interac
 ### Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PhongCT1105&show_icons=true&hide_border=true&theme=github_dark&bg_color=0d1117" alt="GitHub stats for PhongCT1105" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhongCT1105&layout=compact&hide_border=true&theme=github_dark&bg_color=0d1117&langs_count=6" alt="Most used languages" height="165">
+  <img src="https://streak-stats.demolab.com?user=PhongCT1105&hide_border=true&background=0d1117&ring=4493f8&fire=3fb950&currStreakLabel=4493f8&sideLabels=8d96a0&currStreakNum=f0f6fc&sideNums=f0f6fc&dates=8d96a0" alt="GitHub contribution streak for PhongCT1105" height="165">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PhongCT1105&bg_color=0d1117&color=8d96a0&line=4493f8&point=3fb950&area=true&area_color=4493f8&hide_border=true" alt="Contribution activity graph for PhongCT1105" width="920">
 </p>
 
 ### Contact

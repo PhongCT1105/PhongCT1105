@@ -44,14 +44,9 @@ A working GPT built from scratch — tokenizer, attention variants, KV cache, tr
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=PhongCT1105&show_icons=true&hide_border=true&theme=github_dark&bg_color=0d1117">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=PhongCT1105&show_icons=true&hide_border=true&bg_color=ffffff&title_color=2563eb&icon_color=2563eb&text_color=111827">
-    <img src="https://github-readme-stats.vercel.app/api?username=PhongCT1105&show_icons=true&hide_border=true" alt="GitHub statistics for PhongCT1105" height="165">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=PhongCT1105&layout=compact&hide_border=true&theme=github_dark&bg_color=0d1117&langs_count=6">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=PhongCT1105&layout=compact&hide_border=true&bg_color=ffffff&title_color=2563eb&text_color=111827&langs_count=6">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhongCT1105&layout=compact&hide_border=true&langs_count=6" alt="Most used languages" height="165">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=PhongCT1105&bg_color=0d1117&color=9aa4b2&line=58a6ff&point=58a6ff&area=true&area_color=58a6ff&hide_border=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=PhongCT1105&bg_color=ffffff&color=4b5563&line=2563eb&point=2563eb&area=true&area_color=2563eb&hide_border=true">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=PhongCT1105&bg_color=ffffff&color=4b5563&line=2563eb&point=2563eb&area=true&area_color=2563eb&hide_border=true" alt="Contribution activity graph for PhongCT1105" width="920">
   </picture>
 </p>
 

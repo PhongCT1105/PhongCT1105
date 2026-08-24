@@ -46,8 +46,11 @@ I build the machinery around models — the part that makes AI actually usable:
 ## 📡 Signal
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PhongCT1105&show_icons=true&hide_border=true&bg_color=0b0d17&title_color=c084fc&icon_color=22d3ee&text_color=e2e8f0" alt="GitHub stats for PhongCT1105" height="170">
   <img src="https://streak-stats.demolab.com?user=PhongCT1105&hide_border=true&background=0b0d17&ring=c084fc&fire=22d3ee&currStreakLabel=c084fc&sideLabels=94a3b8&currStreakNum=e2e8f0&sideNums=e2e8f0&dates=64748b" alt="GitHub contribution streak" height="170">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PhongCT1105&bg_color=0b0d17&color=94a3b8&line=c084fc&point=22d3ee&area=true&area_color=c084fc&hide_border=true" alt="Contribution activity graph for PhongCT1105" width="920">
 </p>
 
 ## 🔗 Links

@@ -93,7 +93,10 @@ stack: Python · PyTorch
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=PhongCT1105&theme=dark&hide_border=true&background=0a0e14&ring=3fdc84&fire=fbbf24&currStreakLabel=3fdc84" alt="GitHub contribution streak for PhongCT1105" height="170">
-  <img src="https://github-readme-stats.vercel.app/api?username=PhongCT1105&show_icons=true&hide_border=true&theme=dark&bg_color=0a0e14&title_color=3fdc84&icon_color=67e8f9&text_color=e6edf3" alt="GitHub stats for PhongCT1105" height="170">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PhongCT1105&bg_color=0a0e14&color=9aa4b2&line=3fdc84&point=67e8f9&area=true&area_color=3fdc84&hide_border=true" alt="Contribution activity graph for PhongCT1105" width="920">
 </p>
 
 ## `❯ contact --open`

@@ -9,49 +9,148 @@
 
 I build the machinery around models — distributed training, on-device inference, agent tool infrastructure, and evaluation systems that catch hallucinations before users do.
 
+<sub>M.S. Artificial Intelligence @ WPI '27 · building <a href="https://github.com/Zolli-Labs">Zolli Labs</a></sub>
+
 </div>
 
-## 🕹️ The Arcade
+## 🕹️ <samp>ARCADE // CONTRIBUTIONS UNDER FIRE</samp>
 
 <p align="center">
   <img src="space-shooter.gif" alt="My GitHub contribution graph rendered as an animated space shooter game" width="920">
 </p>
 
 <p align="center">
-  <sub>my contribution graph, under fire — regenerated daily by a GitHub Action</sub>
+  <sub>every green block is a real commit — the ship re-fights this battle daily via GitHub Actions</sub>
 </p>
 
-## 🚀 Featured Systems
+## ⚡ <samp>FLAGSHIP // ZOLLI LABS</samp>
 
-### [FlashML](https://github.com/PhongCT1105/FlashML)
+<p align="center">
+  <a href="https://github.com/Zolli-Labs/flashml">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/Zolli-Labs/flashml/image?description=1&language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Dark">
+      <img src="https://socialify.git.ci/Zolli-Labs/flashml/image?description=1&language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Light" alt="FlashML — open fault-tolerant distributed ML runtime" width="640">
+    </picture>
+  </a>
+</p>
 
-> **Distributed ML you can watch.** A serverless playground on Runpod Flash that runs three real distributed architectures — MapReduce K-Means, parameter-server gradient sync, and embarrassingly-parallel hyperparameter search — on live workers, with the execution graph animating in React Flow.
+> **FlashML** — an open, fault-tolerant distributed ML runtime: host agent, elastic workers, and training jobs that **survive the machine they run on being destroyed**. Started as a hackday prototype (see the trophy shelf), now the core of [Zolli Labs](https://github.com/Zolli-Labs).
 
-![TypeScript](https://img.shields.io/badge/TypeScript-8B5CF6?style=flat-square) ![Python](https://img.shields.io/badge/Python-06B6D4?style=flat-square) ![Runpod Flash](https://img.shields.io/badge/Runpod_Flash-10B981?style=flat-square)
+<p align="center">
+  <sub><a href="https://github.com/Zolli-Labs/flashml-cloud">flashml-cloud</a> · <a href="https://github.com/Zolli-Labs/flashml-examples">flashml-examples</a> · <a href="https://github.com/Zolli-Labs/zolli-demo">zolli-demo — kill the machine, keep the training run</a></sub>
+</p>
 
-### [Harbor](https://github.com/PhongCT1105/Harbor)
+## 🧠 <samp>LOCAL AI // MODELS THAT FIT IN A POCKET</samp>
 
-> **The control plane for MCP servers.** Discovers, indexes, ranks and routes thousands of MCP tools so the model only sees the right ones — smaller context, sharper tool calls, one runtime for OpenAI, Anthropic, Gemini or Ollama clients.
+<p align="center">
+  <a href="https://github.com/PhongCT1105/On-Device-Real-Estate-Assistant">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/PhongCT1105/On-Device-Real-Estate-Assistant/image?description=1&language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Dark">
+      <img src="https://socialify.git.ci/PhongCT1105/On-Device-Real-Estate-Assistant/image?description=1&language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Light" alt="On-Device Real-Estate Assistant repository card" width="640">
+    </picture>
+  </a>
+</p>
 
-![MCP](https://img.shields.io/badge/MCP-8B5CF6?style=flat-square) ![Tool Routing](https://img.shields.io/badge/Tool_Routing-06B6D4?style=flat-square) ![Embeddings](https://img.shields.io/badge/Embeddings-10B981?style=flat-square)
+> **A transformer in your pocket.** Domain-tuned FLAN-T5 exported to ONNX and benchmarked on Android ARM64 — measuring how far quantization can push a QA model on phone hardware without wrecking answer quality.
 
-### [On-Device Real-Estate Assistant](https://github.com/PhongCT1105/On-Device-Real-Estate-Assistant)
+## 🔬 <samp>RESEARCH LAB</samp>
 
-> **A transformer in your pocket.** Domain-tuned FLAN-T5 exported to ONNX and benchmarked on Android ARM64 — measuring how far quantization and optimization can push a QA model on phone hardware without wrecking answer quality.
+<p align="center">
+  <a href="https://github.com/PhongCT1105/Hack-Research">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/PhongCT1105/Hack-Research/image?description=1&language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Dark">
+      <img src="https://socialify.git.ci/PhongCT1105/Hack-Research/image?description=1&language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Light" alt="LLM Hallucination Study repository card" width="640">
+    </picture>
+  </a>
+</p>
 
-![PyTorch](https://img.shields.io/badge/PyTorch-8B5CF6?style=flat-square) ![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-06B6D4?style=flat-square) ![Android](https://img.shields.io/badge/Android-10B981?style=flat-square)
+> **LLM Hallucination Study** — a claim-level factorial study of AI-generated professor outreach (96 emails · 360 claims · 12 researchers). Ungrounded LLMs fabricate **34%** of claims; grounding with real publications drops severe errors to **0%**.
 
-## 🧪 Research & Experiments
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/murai-lab/reu2025">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/murai-lab/reu2025/image?language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Dark">
+          <img src="https://socialify.git.ci/murai-lab/reu2025/image?language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Light" alt="REU 2025 research repository card" width="100%">
+        </picture>
+      </a>
+      <sub>REU 2025 · Murai Lab — research in progress</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/PhongCT1105/transfer-learning-ad-mri-depression-classification">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/PhongCT1105/transfer-learning-ad-mri-depression-classification/image?language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Dark">
+          <img src="https://socialify.git.ci/PhongCT1105/transfer-learning-ad-mri-depression-classification/image?language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Light" alt="MRI transfer learning repository card" width="100%">
+        </picture>
+      </a>
+      <sub>Transfer learning on brain MRI — Alzheimer's &amp; depression classification</sub>
+    </td>
+  </tr>
+</table>
 
-**[LLM Hallucination Study](https://github.com/PhongCT1105/Hack-Research)** — a claim-level factorial study of AI-generated professor outreach (96 emails · 360 claims · 12 researchers). Headline: ungrounded LLMs fabricate claims **34%** of the time; grounding with real publications drops severe errors to **0%** and doubles supported specificity.
+## 🏆 <samp>TROPHY SHELF // HACKATHON WINS</samp>
 
-**[GPT from scratch](https://github.com/PhongCT1105/neetcode-gpt)** — a working GPT assembled entirely from self-implemented parts: BPE tokenizer, multi-head + grouped-query attention, KV cache, RMS/layer norm, training and generation loops.
+| | Event | Build |
+|---|---|---|
+| 🏆 | Runpod Flash Hackday '26 | [FlashML](https://github.com/PhongCT1105/FlashML) — distributed ML engine, later grew into the Zolli Labs runtime |
+| 🏆 | Berkeley AI Hackathon '26 | [AI Hack Berkeley build](https://github.com/PhongCT1105/AI_Hack_Berkeley) |
+| 🏆 | BetaFund × Stanford Hack | Cortex — team project (repo lives on a teammate's account) |
+| 🏆 | HackResearch '26 | [LLM Hallucination Study](https://github.com/PhongCT1105/Hack-Research) — the research above started as a hackathon win |
+| 🏆 | GoatHacks '25 | [Repo2Resume](https://github.com/PhongCT1105/Repo2Resume) — GitHub repos → STAR-method resume bullets |
+| 🏆 | NASA Space Apps Challenge '25 | [Space Apps build](https://github.com/PhongCT1105/NASA_Space_App_Challenge) |
 
-## 🛠 Stack
+<details>
+<summary><samp>▸ FULL HACKATHON RECORD</samp></summary>
+<br>
 
-`PyTorch` · `ONNX Runtime` · `Python` · `TypeScript / React` · `FastAPI` · `PostgreSQL` · `Docker` · `AWS` · `Runpod Flash` · `MCP`
+| | Event | Build |
+|---|---|---|
+| ⚙️ | YC Hackathon '26 | [YC_Hack](https://github.com/PhongCT1105/YC_Hack) |
+| ⚙️ | Okta × Stripe Hack '26 | [okta_stripe_hack](https://github.com/PhongCT1105/okta_stripe_hack) |
+| ⚙️ | Gen UI Hack '26 | [Gen_UI_Hack](https://github.com/PhongCT1105/Gen_UI_Hack) |
+| ⚙️ | Vortex Harness Engineering Hack '26 | [Vortex-Harness](https://github.com/PhongCT1105/Vortex-Harness-Engineering-Hack-) |
+| ⚙️ | AI for Education Hackathon '26 | [AI-for-Education](https://github.com/PhongCT1105/AI-for-Education-Hackathon) |
+| ⚙️ | BrightData Hack '26 | [BrightData](https://github.com/PhongCT1105/BrightData) |
 
-## 📡 Signal
+</details>
+
+<details>
+<summary><samp>▸ MORE SYSTEMS</samp></summary>
+<br>
+
+- **[neetcode-gpt](https://github.com/PhongCT1105/neetcode-gpt)** — a working GPT assembled entirely from self-implemented parts: BPE tokenizer, multi-head + grouped-query attention, KV cache, RMS/layer norm, training and generation loops
+- **[On_Device_Deep_Learning](https://github.com/PhongCT1105/On_Device_Deep_Learning)** — deep learning benchmarks on phone hardware
+- **[QuantOS](https://github.com/PhongCT1105/QuantOS)** — quantitative trading experiments
+- **[RecSys_MAG](https://github.com/PhongCT1105/RecSys_MAG)** — recommender-system experiments on academic graph data
+
+</details>
+
+## 📊 <samp>TELEMETRY</samp>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/tokyonight/0-profile-details.svg">
+    <img src="profile-summary-card-output/default/0-profile-details.svg" alt="GitHub profile details card" width="920">
+  </picture>
+</p>
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/tokyonight/2-most-commit-language.svg">
+        <img src="profile-summary-card-output/default/2-most-commit-language.svg" alt="Most committed languages with percentages" width="100%">
+      </picture>
+    </td>
+    <td width="50%" align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/tokyonight/3-stats.svg">
+        <img src="profile-summary-card-output/default/3-stats.svg" alt="GitHub stats card" width="100%">
+      </picture>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <picture>
@@ -60,7 +159,15 @@ I build the machinery around models — distributed training, on-device inferenc
   </picture>
 </p>
 
-## 🔗 Links
+<p align="center">
+  <sub>all telemetry regenerates itself daily — this profile is a running system, not a static page</sub>
+</p>
+
+## 🛠 <samp>ARSENAL</samp>
+
+`PyTorch` · `ONNX Runtime` · `Python` · `TypeScript / React` · `FastAPI` · `PostgreSQL` · `Docker` · `AWS` · `Runpod` · `MCP`
+
+## 📡 <samp>UPLINK</samp>
 
 [![GitHub](https://img.shields.io/badge/GitHub-PhongCT1105-8B5CF6?style=for-the-badge&logo=github&labelColor=1E293B)](https://github.com/PhongCT1105)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-phongct1105-06B6D4?style=for-the-badge&logo=linkedin&labelColor=1E293B)](https://www.linkedin.com/in/phongct1105)

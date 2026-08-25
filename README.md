@@ -13,38 +13,11 @@ I build the machinery around models — distributed training, on-device inferenc
 
 <br>
 
-<samp><sub>this profile runs like an ML system &nbsp;·&nbsp; 01 TRAIN → 02 RLHF → 03 SHIP → 04 MONITOR &nbsp;·&nbsp; fully automated by GitHub Actions</sub></samp>
+<samp><sub>this profile runs like an ML system &nbsp;·&nbsp; 01 TRAIN → 02 EVAL → 03 SHIP → 04 MONITOR &nbsp;·&nbsp; fully automated by GitHub Actions</sub></samp>
 
 </div>
 
-## 🤖 <samp>01 TRAIN // THE PROFILE LEARNS FROM MY COMMITS</samp>
-
-<p align="center">
-  <img src="training-run.svg" alt="Live training-run card: my real contribution history rendered as a FlashML training job with epochs, accuracy, loss curve, and survived restarts" width="920">
-</p>
-
-<p align="center">
-  <sub><b>the concept:</b> this profile is a machine-learning model and my commits are its training data — the more consistently I ship, the better its metrics. GitHub Actions retrains it every night with <a href="scripts/training_run.py">a generator I wrote</a>. <b>⭐ starring a repo sends it reward signal.</b></sub>
-</p>
-
-<details>
-<summary><sub>🧾 how to read the card</sub></summary>
-<br>
-
-| On the card | What it really is |
-|---|---|
-| green dots → `MODEL` | my last 14 days of commits, fed in as training samples |
-| `epoch` | days since this account was created — one training pass per day |
-| `acc` | % of the last 12 weeks I shipped something — rises and falls with my consistency |
-| `loss` | 1 ÷ (1 + my avg daily contributions) — the more I commit, the lower it drops |
-| `▲` / `▼` | change vs one week ago — green means the model is improving |
-| the curves | 26 weeks of real history — the green acc line climbs when I ship, the pink loss line spikes when I go quiet |
-| `reward ★` | total stars on my repos — one click, straight into the metrics |
-| `✓ survived N machine restarts` | every gap in my commit graph the job recovered from — fault tolerance, the thing <a href="https://github.com/Zolli-Labs/flashml">FlashML</a> actually does |
-
-</details>
-
-## 🗳 <samp>02 RLHF // TEACH A REAL AGENT — YOUR VOTE BECOMES WEIGHTS</samp>
+## 🗳 <samp>01 TRAIN // TEACH A REAL AGENT — YOUR VOTE BECOMES WEIGHTS</samp>
 
 <p align="center">
   <a href="https://github.com/PhongCT1105/rlhf-runner">
@@ -53,7 +26,7 @@ I build the machinery around models — distributed training, on-device inferenc
 </p>
 
 <p align="center">
-  <sub>the card above is the metaphor — <b>this one is real</b>: a tiny policy is learning this level from visitor votes.<br>it died. <b>one click below opens a ready-made ballot — just press submit.</b> CI counts it in ~30s, and every sunday it trains and <b>commits new weights</b>.</sub>
+  <sub><b>not an animation — a real model.</b> a tiny policy is learning this level from visitor votes: it dies, you tell it what it should have done, and every sunday CI trains it and <b>commits new weights</b>.<br><b>one click below opens a ready-made ballot — just press submit.</b> CI counts your vote in ~30s and the card updates.</sub>
 </p>
 
 <p align="center">
@@ -63,6 +36,16 @@ I build the machinery around models — distributed training, on-device inferenc
   <a href="https://github.com/PhongCT1105/rlhf-runner/issues/new?title=vote%3A%20LONG%20JUMP&body=Just%20press%20%E2%80%9CSubmit%20new%20issue%E2%80%9D%20%E2%80%94%20CI%20counts%20your%20vote%2C%20updates%20the%20card%2C%20and%20closes%20this%20issue%20automatically."><img src="https://img.shields.io/badge/LONG_JUMP-10B981?style=for-the-badge&labelColor=1E293B" alt="Vote LONG JUMP"></a>
   &nbsp;
   <a href="https://github.com/PhongCT1105/rlhf-runner"><img src="https://img.shields.io/badge/⚙_how_it_works-1E293B?style=for-the-badge" alt="How it works"></a>
+</p>
+
+## 🕹️ <samp>02 EVAL // MY COMMITS UNDER FIRE</samp>
+
+<p align="center">
+  <img src="space-shooter.gif" alt="My GitHub contribution graph rendered as an animated space shooter game" width="920">
+</p>
+
+<p align="center">
+  <sub>every enemy block is one of my real commits — the ship re-fights this battle daily via GitHub Actions</sub>
 </p>
 
 ## 🚀 <samp>03 SHIP // TOP SYSTEMS</samp>

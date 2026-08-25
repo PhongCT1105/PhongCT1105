@@ -23,51 +23,42 @@ I build the machinery around models — distributed training, on-device inferenc
   <sub>every green block is a real commit — the ship re-fights this battle daily via GitHub Actions</sub>
 </p>
 
-## ⚡ <samp>FLAGSHIP // ZOLLI LABS</samp>
+## 🚀 <samp>SYSTEMS GRID</samp>
 
 <table>
   <tr>
-    <td valign="top">
-      <h3>⚡ <a href="https://github.com/Zolli-Labs/flashml">FlashML</a> &nbsp;<sub>by Zolli Labs</sub></h3>
-      <p>An open, <b>fault-tolerant distributed ML runtime</b> — host agent, elastic workers, and training jobs that <b>survive the machine they run on being destroyed</b>. Started as a hackday win (see the trophy shelf), now the core of <a href="https://github.com/Zolli-Labs">Zolli Labs</a>.</p>
+    <td width="50%" valign="top">
+      <sub><samp>⚡ FLAGSHIP // ZOLLI LABS</samp></sub>
+      <h3><a href="https://github.com/Zolli-Labs/flashml">FlashML</a></h3>
+      <p>An open, <b>fault-tolerant distributed ML runtime</b> — host agent, elastic workers, and training jobs that <b>survive the machine they run on being destroyed</b>. Started as a hackday win, now the core of <a href="https://github.com/Zolli-Labs">Zolli Labs</a>.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
         <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
         <img src="https://img.shields.io/badge/Distributed_Training-8B5CF6?style=flat-square" alt="Distributed Training">
         <img src="https://img.shields.io/badge/Fault_Tolerance-10B981?style=flat-square" alt="Fault Tolerance">
-        &nbsp;&nbsp;<img src="https://img.shields.io/github/languages/top/Zolli-Labs/flashml?style=flat-square&labelColor=1E293B&color=8B5CF6" alt="Top language">
+        <img src="https://img.shields.io/github/languages/top/Zolli-Labs/flashml?style=flat-square&labelColor=1E293B&color=8B5CF6" alt="Top language">
         <img src="https://img.shields.io/github/last-commit/Zolli-Labs/flashml?style=flat-square&labelColor=1E293B&color=06B6D4" alt="Last commit">
       </p>
-      <sub>ecosystem: <a href="https://github.com/Zolli-Labs/flashml-cloud">flashml-cloud</a> · <a href="https://github.com/Zolli-Labs/flashml-examples">flashml-examples</a> · <a href="https://github.com/Zolli-Labs/zolli-demo">zolli-demo — kill the machine, keep the training run</a></sub>
+      <sub>ecosystem: <a href="https://github.com/Zolli-Labs/flashml-cloud">flashml-cloud</a> · <a href="https://github.com/Zolli-Labs/flashml-examples">flashml-examples</a> · <a href="https://github.com/Zolli-Labs/zolli-demo">zolli-demo</a></sub>
     </td>
-  </tr>
-</table>
-
-## 🧠 <samp>LOCAL AI // MODELS THAT FIT IN A POCKET</samp>
-
-<table>
-  <tr>
-    <td valign="top">
-      <h3>📱 <a href="https://github.com/PhongCT1105/On-Device-Real-Estate-Assistant">On-Device Real-Estate Assistant</a></h3>
-      <p><b>A transformer in your pocket.</b> Domain-tuned FLAN-T5 exported to ONNX and benchmarked on Android ARM64 — measuring how far quantization can push a QA model on phone hardware without wrecking answer quality.</p>
+    <td width="50%" valign="top">
+      <sub><samp>🧠 LOCAL AI // ON-DEVICE</samp></sub>
+      <h3><a href="https://github.com/PhongCT1105/On-Device-Real-Estate-Assistant">On-Device Real-Estate Assistant</a></h3>
+      <p><b>A transformer in your pocket.</b> Domain-tuned FLAN-T5 exported to ONNX and benchmarked on Android ARM64 — how far can quantization push a QA model on phone hardware without wrecking answer quality?</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
         <img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX Runtime">
         <img src="https://img.shields.io/badge/FLAN--T5-06B6D4?style=flat-square" alt="FLAN-T5">
         <img src="https://img.shields.io/badge/Android_ARM64-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android ARM64">
-        &nbsp;&nbsp;<img src="https://img.shields.io/github/languages/top/PhongCT1105/On-Device-Real-Estate-Assistant?style=flat-square&labelColor=1E293B&color=8B5CF6" alt="Top language">
+        <img src="https://img.shields.io/github/languages/top/PhongCT1105/On-Device-Real-Estate-Assistant?style=flat-square&labelColor=1E293B&color=8B5CF6" alt="Top language">
       </p>
     </td>
   </tr>
-</table>
-
-## 🔬 <samp>RESEARCH LAB</samp>
-
-<table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🧪 <a href="https://github.com/PhongCT1105/Hack-Research">LLM Hallucination Study</a></h3>
-      <p>Claim-level factorial study of AI-generated professor outreach — <b>96 emails · 360 claims · 12 researchers</b>. Ungrounded LLMs fabricate <b>34%</b> of claims; grounding with real publications drops severe errors to <b>0%</b>.</p>
+      <sub><samp>🔬 RESEARCH // LLM RELIABILITY</samp></sub>
+      <h3><a href="https://github.com/PhongCT1105/Hack-Research">LLM Hallucination Study</a></h3>
+      <p>Claim-level factorial study of AI-generated professor outreach — <b>96 emails · 360 claims · 12 researchers</b>. Ungrounded LLMs fabricate <b>34%</b> of claims; grounding drops severe errors to <b>0%</b>.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
         <img src="https://img.shields.io/badge/LLM_Evaluation-8B5CF6?style=flat-square" alt="LLM Evaluation">
@@ -75,7 +66,8 @@ I build the machinery around models — distributed training, on-device inferenc
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🧠 <a href="https://github.com/PhongCT1105/transfer-learning-ad-mri-depression-classification">Brain MRI Transfer Learning</a></h3>
+      <sub><samp>🔬 RESEARCH // NEUROIMAGING</samp></sub>
+      <h3><a href="https://github.com/PhongCT1105/transfer-learning-ad-mri-depression-classification">Brain MRI Transfer Learning</a></h3>
       <p>Transfer learning on neuroimaging — classifying <b>Alzheimer's disease and depression</b> from brain MRI scans with domain-adapted vision models.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
@@ -130,27 +122,26 @@ I build the machinery around models — distributed training, on-device inferenc
 
 <table>
   <tr>
-    <td width="50%" align="center">
+    <td width="33%" align="center">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/tokyonight/2-most-commit-language.svg">
         <img src="profile-summary-card-output/default/2-most-commit-language.svg" alt="Most committed languages with percentages" width="100%">
       </picture>
     </td>
-    <td width="50%" align="center">
+    <td width="33%" align="center">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/tokyonight/3-stats.svg">
         <img src="profile-summary-card-output/default/3-stats.svg" alt="GitHub stats card" width="100%">
       </picture>
     </td>
+    <td width="33%" align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/tokyonight/4-productive-time.svg">
+        <img src="profile-summary-card-output/default/4-productive-time.svg" alt="Commits by time of day" width="100%">
+      </picture>
+    </td>
   </tr>
 </table>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/tokyonight/4-productive-time.svg">
-    <img src="profile-summary-card-output/default/4-productive-time.svg" alt="Commits by time of day" width="460">
-  </picture>
-</p>
 
 <p align="center">
   <sub>all telemetry regenerates itself daily — this profile is a running system, not a static page</sub>

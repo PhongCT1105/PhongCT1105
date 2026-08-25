@@ -31,9 +31,10 @@ I build the machinery around models — distributed training, on-device inferenc
 |---|---|
 | green dots → `MODEL` | my last 14 days of commits, fed in as training samples |
 | `epoch` | days since this account was created — one training pass per day |
-| `acc` | % of the last 52 weeks I shipped something — consistency as accuracy |
+| `acc` | % of the last 12 weeks I shipped something — rises and falls with my consistency |
 | `loss` | 1 ÷ (1 + my avg daily contributions) — the more I commit, the lower it drops |
-| the curve | my real last 26 weeks — quiet weeks spike the loss |
+| `▲` / `▼` | change vs one week ago — green means the model is improving |
+| the curves | 26 weeks of real history — the green acc line climbs when I ship, the pink loss line spikes when I go quiet |
 | `reward ★` | total stars on my repos — one click, straight into the metrics |
 | `✓ survived N machine restarts` | every gap in my commit graph the job recovered from — fault tolerance, the thing <a href="https://github.com/Zolli-Labs/flashml">FlashML</a> actually does |
 

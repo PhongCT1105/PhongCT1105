@@ -66,11 +66,19 @@ def metrics(user):
     created = datetime.fromisoformat(user["createdAt"].replace("Z", "+00:00"))
     epoch = (datetime.now(timezone.utc) - created).days
 
-    active_weeks = sum(1 for w in weekly[-52:] if w > 0)
-    acc = round(100 * active_weeks / min(52, len(weekly)), 1)
+    # rolling 12-week consistency, one point per week — this is what makes
+    # accuracy actually move up and down instead of sitting still
+    acc_series = []
+    for i in range(len(weekly) - 26, len(weekly)):
+        window = weekly[max(0, i - 11):i + 1]
+        acc_series.append(100 * sum(1 for w in window if w > 0) / len(window))
+    acc = round(acc_series[-1], 1)
+    acc_delta = round(acc_series[-1] - acc_series[-2], 1)
 
     avg30 = sum(counts[-30:]) / 30
     loss = round(1 / (1 + avg30), 2)
+    loss_prev = round(1 / (1 + sum(counts[-37:-7]) / 30), 2)  # same metric, one week ago
+    loss_delta = round(loss - loss_prev, 2)
 
     # current streak, tolerating an empty "today" (UTC morning)
     streak, run = 0, counts[:-1] if counts and counts[-1] == 0 else counts
@@ -93,7 +101,10 @@ def metrics(user):
         "stars": sum(r["stargazerCount"] for r in user["repositories"]["nodes"]),
         "samples": cal["totalContributions"],
         "acc": acc,
+        "acc_delta": acc_delta,
+        "acc_series": acc_series,
         "loss": loss,
+        "loss_delta": loss_delta,
         "streak": streak,
         "restarts": restarts,
         "last14": counts[-14:],
@@ -113,15 +124,26 @@ def text(x, y, s, fill=TEXT, size=13, anchor="start", weight="400", extra=""):
             f"text-anchor='{anchor}' font-family=\"{MONO}\" {extra}>{s}</text>")
 
 
-def bar(x, y, w, frac, color, label, value, note):
+def delta_tag(d, good_when_negative=False):
+    """Format a week-over-week change as ▲/▼, green = improving."""
+    if d == 0:
+        return "·0.0", DIM
+    arrow = "▲" if d > 0 else "▼"
+    improving = (d < 0) if good_when_negative else (d > 0)
+    return f"{arrow}{abs(d)}", (GREEN if improving else PINK)
+
+
+def bar(x, y, w, frac, color, label, value, delta, note):
     fill_w = round(w * min(frac, 1.0), 1)
+    d_str, d_col = delta
     return "".join([
         text(x, y + 9, label, SLATE, 12),
         f"<rect x='{x + 52}' y='{y}' width='{w}' height='10' rx='5' fill='{EDGE}'/>",
         f"<rect x='{x + 52}' y='{y}' width='{fill_w}' height='10' rx='5' fill='{color}'>"
         f"<animate attributeName='opacity' values='1;0.75;1' dur='3s' repeatCount='indefinite'/></rect>",
         text(x + 52 + w + 12, y + 10, value, TEXT, 13, weight="700"),
-        text(x + 52 + w + 78, y + 10, note, DIM, 10),
+        text(x + 52 + w + 66, y + 10, d_str, d_col, 11, weight="700"),
+        text(x + 52 + w + 116, y + 10, note, DIM, 10),
     ])
 
 
@@ -174,24 +196,41 @@ def render(m):
             f"font-family=\"{MONO}\">.<animate attributeName='opacity' values='1;0.15;1' dur='1.8s' "
             f"begin='{i * 0.3}s' repeatCount='indefinite'/></text>")
 
-    # metric bars (left) — real values, statically sized
-    parts.append(bar(28, 168, 240, m["acc"] / 100, GREEN, "acc", f"{m['acc']}%", "weeks active, last 52"))
-    parts.append(bar(28, 196, 240, m["loss"], PINK, "loss", f"{m['loss']}", "∝ 1 / daily activity, 30d"))
+    # metric bars (left) — current values with week-over-week direction
+    parts.append(bar(28, 168, 240, m["acc"] / 100, GREEN, "acc", f"{m['acc']}%",
+                     delta_tag(m["acc_delta"]), "weeks active /12"))
+    parts.append(bar(28, 196, 240, m["loss"], PINK, "loss", f"{m['loss']}",
+                     delta_tag(m["loss_delta"], good_when_negative=True), "∝ 1/activity, 30d"))
 
-    # loss curve (right) — last 26 weeks, inverted, min-max normalized
+    # training curves (right) — acc and loss over the last 26 weeks,
+    # each min-max normalized into the same box like an auto-scaled dashboard
     cx0, cy0, cw, ch = 560, 160, 320, 64
-    losses = [1 / (1 + w) for w in m["weekly26"]] or [1.0]
-    lo, hi = min(losses), max(losses)
-    span = (hi - lo) or 1.0
-    pts = [(cx0 + i * cw / max(len(losses) - 1, 1), cy0 + ch - ch * (1 - (l - lo) / span) * 0.9 - ch * 0.05)
-           for i, l in enumerate(losses)]
-    poly = " ".join(f"{x:.1f},{y:.1f}" for x, y in pts)
-    path_d = "M " + " L ".join(f"{x:.1f} {y:.1f}" for x, y in pts)
+
+    def curve(values, invert=False):
+        lo, hi = min(values), max(values)
+        span = (hi - lo) or 1.0
+        pts = []
+        for i, v in enumerate(values):
+            frac = (v - lo) / span
+            if invert:
+                frac = 1 - frac
+            x = cx0 + i * cw / max(len(values) - 1, 1)
+            y = cy0 + ch - (ch * 0.05 + frac * ch * 0.9)
+            pts.append((x, y))
+        poly = " ".join(f"{x:.1f},{y:.1f}" for x, y in pts)
+        path = "M " + " L ".join(f"{x:.1f} {y:.1f}" for x, y in pts)
+        return poly, path
+
+    acc_poly, acc_path = curve(m["acc_series"])
+    loss_poly, loss_path = curve([1 / (1 + w) for w in m["weekly26"]] or [1.0])
     parts += [
-        text(cx0, cy0 - 10, "loss // last 26 weeks (real data)", DIM, 10),
-        f"<path d='{path_d} L {pts[-1][0]:.1f} {cy0 + ch} L {pts[0][0]:.1f} {cy0 + ch} Z' fill='{PURPLE}' opacity='0.12'/>",
-        f"<polyline points='{poly}' fill='none' stroke='{PURPLE}' stroke-width='2'/>",
-        f"<circle r='4' fill='{CYAN}'><animateMotion dur='6s' repeatCount='indefinite' path='{path_d}'/></circle>",
+        text(cx0, cy0 - 10, "training curves // last 26 weeks (real)", DIM, 10),
+        text(cx0 + 232, cy0 - 10, "— acc", GREEN, 10, weight="700"),
+        text(cx0 + 276, cy0 - 10, "— loss", PINK, 10, weight="700"),
+        f"<polyline points='{acc_poly}' fill='none' stroke='{GREEN}' stroke-width='2' opacity='0.9'/>",
+        f"<polyline points='{loss_poly}' fill='none' stroke='{PINK}' stroke-width='2' opacity='0.9'/>",
+        f"<circle r='3.5' fill='{GREEN}'><animateMotion dur='7s' repeatCount='indefinite' path='{acc_path}'/></circle>",
+        f"<circle r='3.5' fill='{CYAN}'><animateMotion dur='6s' repeatCount='indefinite' path='{loss_path}'/></circle>",
         # footer
         f"<line x1='24' y1='252' x2='{W-24}' y2='252' stroke='{EDGE}'/>",
         text(28, 276, f"samples: {m['samples']:,} · reward: ★{m['stars']} · uptime: {m['streak']}d streak", SLATE, 12),

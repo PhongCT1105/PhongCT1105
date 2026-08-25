@@ -11,9 +11,13 @@ I build the machinery around models — distributed training, on-device inferenc
 
 <sub>M.S. Artificial Intelligence @ WPI '27 · building <a href="https://github.com/Zolli-Labs">Zolli Labs</a></sub>
 
+<br>
+
+<samp><sub>this profile runs like an ML system &nbsp;·&nbsp; 01 TRAIN → 02 EVAL → 03 SHIP → 04 MONITOR &nbsp;·&nbsp; fully automated by GitHub Actions</sub></samp>
+
 </div>
 
-## 🤖 <samp>TRAINING RUN // THIS PROFILE TRAINS ON MY COMMITS</samp>
+## 🤖 <samp>01 TRAIN // THE PROFILE LEARNS FROM MY COMMITS</samp>
 
 <p align="center">
   <img src="training-run.svg" alt="Live training-run card: my real contribution history rendered as a FlashML training job with epochs, accuracy, loss curve, and survived restarts" width="920">
@@ -40,17 +44,17 @@ I build the machinery around models — distributed training, on-device inferenc
 
 </details>
 
-## 🕹️ <samp>ARCADE // CONTRIBUTIONS UNDER FIRE</samp>
+## 🕹️ <samp>02 EVAL // THE MODEL UNDER ADVERSARIAL ATTACK</samp>
 
 <p align="center">
   <img src="space-shooter.gif" alt="My GitHub contribution graph rendered as an animated space shooter game" width="920">
 </p>
 
 <p align="center">
-  <sub>every green block is a real commit — the ship re-fights this battle daily via GitHub Actions</sub>
+  <sub>evaluation phase: the trained model runs the gauntlet through my real contribution graph — every enemy block is one of my commits · re-fought daily by GitHub Actions</sub>
 </p>
 
-## 🚀 <samp>TOP SYSTEMS</samp>
+## 🚀 <samp>03 SHIP // TOP SYSTEMS</samp>
 
 <table>
   <tr>
@@ -98,7 +102,7 @@ I build the machinery around models — distributed training, on-device inferenc
 </p>
 
 <details>
-<summary><b>🏆 <samp>TROPHY SHELF // HACKATHON RECORD</samp></b></summary>
+<summary><b>🏆 <samp>BENCHMARKS // HACKATHON RECORD</samp></b></summary>
 <br>
 
 | | Event | Build |
@@ -128,7 +132,7 @@ I build the machinery around models — distributed training, on-device inferenc
 
 </details>
 
-## 📊 <samp>TELEMETRY // STATS &amp; ACTIVITY</samp>
+## 📊 <samp>04 MONITOR // LIVE TELEMETRY</samp>
 
 <table>
   <tr>
@@ -157,11 +161,11 @@ I build the machinery around models — distributed training, on-device inferenc
   <sub>all telemetry regenerates itself daily — this profile is a running system, not a static page</sub>
 </p>
 
-## 🛠 <samp>ARSENAL</samp>
+## 🛠 <samp>STACK</samp>
 
 `PyTorch` · `ONNX Runtime` · `Python` · `TypeScript / React` · `FastAPI` · `PostgreSQL` · `Docker` · `AWS` · `Runpod` · `MCP`
 
-## 📡 <samp>UPLINK</samp>
+## 📡 <samp>CONTACT</samp>
 
 [![GitHub](https://img.shields.io/badge/GitHub-PhongCT1105-8B5CF6?style=for-the-badge&logo=github&labelColor=1E293B)](https://github.com/PhongCT1105)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-phongct1105-06B6D4?style=for-the-badge&logo=linkedin&labelColor=1E293B)](https://www.linkedin.com/in/phongct1105)

@@ -13,6 +13,16 @@ I build the machinery around models — distributed training, on-device inferenc
 
 </div>
 
+## 🤖 <samp>TRAINING RUN // THIS PROFILE TRAINS ON MY COMMITS</samp>
+
+<p align="center">
+  <img src="training-run.svg" alt="Live training-run card: my real contribution history rendered as a FlashML training job with epochs, accuracy, loss curve, and survived restarts" width="920">
+</p>
+
+<p align="center">
+  <sub>not a mockup — every number is computed daily from my real contribution history by <a href="scripts/training_run.py">a generator I wrote</a> + GitHub Actions. gaps in my commit graph count as machine crashes the job survived.</sub>
+</p>
+
 ## 🕹️ <samp>ARCADE // CONTRIBUTIONS UNDER FIRE</samp>
 
 <p align="center">

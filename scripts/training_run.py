@@ -224,7 +224,7 @@ def render(m):
     acc_poly, acc_path = curve(m["acc_series"])
     loss_poly, loss_path = curve([1 / (1 + w) for w in m["weekly26"]] or [1.0])
     parts += [
-        text(cx0, cy0 - 10, "training curves // last 26 weeks (real)", DIM, 10),
+        text(cx0, cy0 - 10, "training curves // last 26 wks", DIM, 10),
         text(cx0 + 232, cy0 - 10, "— acc", GREEN, 10, weight="700"),
         text(cx0 + 276, cy0 - 10, "— loss", PINK, 10, weight="700"),
         f"<polyline points='{acc_poly}' fill='none' stroke='{GREEN}' stroke-width='2' opacity='0.9'/>",

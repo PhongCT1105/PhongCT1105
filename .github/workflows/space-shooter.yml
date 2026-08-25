@@ -1,0 +1,23 @@
+name: Space Shooter
+
+on:
+  schedule:
+    - cron: '17 5 * * *' # daily, off the top of the hour to dodge GitHub's cron congestion
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-game:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 2 # required so the action can amend its previous commit
+
+      - uses: czl9707/gh-space-shooter@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          output-path: 'space-shooter.gif'
+          strategy: 'random'

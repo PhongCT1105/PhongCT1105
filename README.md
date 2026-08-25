@@ -13,7 +13,7 @@ I build the machinery around models — distributed training, on-device inferenc
 
 <br>
 
-<samp><sub>this profile runs like an ML system &nbsp;·&nbsp; 01 TRAIN → 02 EVAL → 03 SHIP → 04 MONITOR &nbsp;·&nbsp; fully automated by GitHub Actions</sub></samp>
+<samp><sub>this profile runs like an ML system &nbsp;·&nbsp; 01 TRAIN → 02 RLHF → 03 EVAL → 04 SHIP → 05 MONITOR &nbsp;·&nbsp; fully automated by GitHub Actions</sub></samp>
 
 </div>
 
@@ -44,7 +44,27 @@ I build the machinery around models — distributed training, on-device inferenc
 
 </details>
 
-## 🕹️ <samp>02 EVAL // THE MODEL UNDER ADVERSARIAL ATTACK</samp>
+## 🗳 <samp>02 RLHF // TEACH A REAL AGENT — YOUR VOTE BECOMES WEIGHTS</samp>
+
+<p align="center">
+  <a href="https://github.com/PhongCT1105/rlhf-runner">
+    <img src="https://raw.githubusercontent.com/PhongCT1105/rlhf-runner/main/replay.svg" alt="Live replay of a tiny agent learning a platformer level from human votes, retrained weekly" width="920">
+  </a>
+</p>
+
+<p align="center">
+  <sub>the card above is the metaphor — <b>this one is real</b>: a tiny policy is learning this level from visitor votes. it dies, you tell it what it should have done, and every sunday CI trains it and <b>commits new weights</b>. teach it:</sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/PhongCT1105/rlhf-runner/issues/new?title=vote%3A%20RUN&body=Just%20press%20%E2%80%9CSubmit%20new%20issue%E2%80%9D%20%E2%80%94%20CI%20counts%20your%20vote%2C%20updates%20the%20card%2C%20and%20closes%20this%20issue%20automatically."><img src="https://img.shields.io/badge/VOTE-RUN-06B6D4?style=for-the-badge&labelColor=1E293B" alt="Vote RUN"></a>
+  <a href="https://github.com/PhongCT1105/rlhf-runner/issues/new?title=vote%3A%20JUMP&body=Just%20press%20%E2%80%9CSubmit%20new%20issue%E2%80%9D%20%E2%80%94%20CI%20counts%20your%20vote%2C%20updates%20the%20card%2C%20and%20closes%20this%20issue%20automatically."><img src="https://img.shields.io/badge/VOTE-JUMP-8B5CF6?style=for-the-badge&labelColor=1E293B" alt="Vote JUMP"></a>
+  <a href="https://github.com/PhongCT1105/rlhf-runner/issues/new?title=vote%3A%20LONG%20JUMP&body=Just%20press%20%E2%80%9CSubmit%20new%20issue%E2%80%9D%20%E2%80%94%20CI%20counts%20your%20vote%2C%20updates%20the%20card%2C%20and%20closes%20this%20issue%20automatically."><img src="https://img.shields.io/badge/VOTE-LONG_JUMP-10B981?style=for-the-badge&labelColor=1E293B" alt="Vote LONG JUMP"></a>
+  &nbsp;
+  <a href="https://github.com/PhongCT1105/rlhf-runner"><img src="https://img.shields.io/badge/how_it_works-1E293B?style=for-the-badge" alt="How it works"></a>
+</p>
+
+## 🕹️ <samp>03 EVAL // THE MODEL UNDER ADVERSARIAL ATTACK</samp>
 
 <p align="center">
   <img src="space-shooter.gif" alt="My GitHub contribution graph rendered as an animated space shooter game" width="920">
@@ -54,7 +74,7 @@ I build the machinery around models — distributed training, on-device inferenc
   <sub>evaluation phase: the trained model runs the gauntlet through my real contribution graph — every enemy block is one of my commits · re-fought daily by GitHub Actions</sub>
 </p>
 
-## 🚀 <samp>03 SHIP // TOP SYSTEMS</samp>
+## 🚀 <samp>04 SHIP // TOP SYSTEMS</samp>
 
 <table>
   <tr>
@@ -132,7 +152,7 @@ I build the machinery around models — distributed training, on-device inferenc
 
 </details>
 
-## 📊 <samp>04 MONITOR // LIVE TELEMETRY</samp>
+## 📊 <samp>05 MONITOR // LIVE TELEMETRY</samp>
 
 <table>
   <tr>

@@ -66,28 +66,19 @@ I build the machinery around models — distributed training, on-device inferenc
 
 > **LLM Hallucination Study** — a claim-level factorial study of AI-generated professor outreach (96 emails · 360 claims · 12 researchers). Ungrounded LLMs fabricate **34%** of claims; grounding with real publications drops severe errors to **0%**.
 
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://github.com/murai-lab/reu2025">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/murai-lab/reu2025/image?language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Dark">
-          <img src="https://socialify.git.ci/murai-lab/reu2025/image?language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Light" alt="REU 2025 research repository card" width="100%">
-        </picture>
-      </a>
-      <sub>REU 2025 · Murai Lab — research in progress</sub>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://github.com/PhongCT1105/transfer-learning-ad-mri-depression-classification">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/PhongCT1105/transfer-learning-ad-mri-depression-classification/image?language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Dark">
-          <img src="https://socialify.git.ci/PhongCT1105/transfer-learning-ad-mri-depression-classification/image?language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Light" alt="MRI transfer learning repository card" width="100%">
-        </picture>
-      </a>
-      <sub>Transfer learning on brain MRI — Alzheimer's &amp; depression classification</sub>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/PhongCT1105/transfer-learning-ad-mri-depression-classification">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/PhongCT1105/transfer-learning-ad-mri-depression-classification/image?language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Dark">
+      <img src="https://socialify.git.ci/PhongCT1105/transfer-learning-ad-mri-depression-classification/image?language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Light" alt="MRI transfer learning repository card" width="640">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <sub>Transfer learning on brain MRI — Alzheimer's &amp; depression classification</sub><br>
+  <sub>🔒 REU 2025 · Murai Lab — research in progress (repo private)</sub>
+</p>
 
 ## 🏆 <samp>TROPHY SHELF // HACKATHON WINS</samp>
 
@@ -121,7 +112,6 @@ I build the machinery around models — distributed training, on-device inferenc
 
 - **[neetcode-gpt](https://github.com/PhongCT1105/neetcode-gpt)** — a working GPT assembled entirely from self-implemented parts: BPE tokenizer, multi-head + grouped-query attention, KV cache, RMS/layer norm, training and generation loops
 - **[On_Device_Deep_Learning](https://github.com/PhongCT1105/On_Device_Deep_Learning)** — deep learning benchmarks on phone hardware
-- **[QuantOS](https://github.com/PhongCT1105/QuantOS)** — quantitative trading experiments
 - **[RecSys_MAG](https://github.com/PhongCT1105/RecSys_MAG)** — recommender-system experiments on academic graph data
 
 </details>

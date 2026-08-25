@@ -147,8 +147,8 @@ I build the machinery around models — distributed training, on-device inferenc
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=PhongCT1105&hide_border=true&disable_animations=true&background=00000000&ring=C084FC&fire=22D3EE&currStreakLabel=C084FC&sideLabels=94A3B8&currStreakNum=E2E8F0&sideNums=E2E8F0&dates=64748B">
-    <img src="https://streak-stats.demolab.com?user=PhongCT1105&hide_border=true&disable_animations=true&background=00000000&ring=7C3AED&fire=0891B2&currStreakLabel=7C3AED&sideLabels=475569&currStreakNum=0F172A&sideNums=0F172A&dates=94A3B8" alt="GitHub contribution streak" height="170">
+    <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/tokyonight/4-productive-time.svg">
+    <img src="profile-summary-card-output/default/4-productive-time.svg" alt="Commits by time of day" width="460">
   </picture>
 </p>
 

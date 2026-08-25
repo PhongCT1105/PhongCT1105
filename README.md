@@ -27,20 +27,18 @@ I build the machinery around models — distributed training, on-device inferenc
 
 <table>
   <tr>
-    <td width="55%" valign="middle">
-      <a href="https://github.com/Zolli-Labs/flashml">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/Zolli-Labs/flashml/image?description=1&language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Dark&logo=https%3A%2F%2Favatars.githubusercontent.com%2FZolli-Labs">
-          <img src="https://socialify.git.ci/Zolli-Labs/flashml/image?description=1&language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Light&logo=https%3A%2F%2Favatars.githubusercontent.com%2FZolli-Labs" alt="FlashML — open fault-tolerant distributed ML runtime" width="100%">
-        </picture>
-      </a>
-    </td>
-    <td width="45%" valign="middle">
-      <b>FlashML</b> — an open, fault-tolerant distributed ML runtime: host agent, elastic workers, and training jobs that <b>survive the machine they run on being destroyed</b>.
-      <br><br>
-      Started as a hackday prototype (see the trophy shelf), now the core of <a href="https://github.com/Zolli-Labs">Zolli Labs</a>.
-      <br><br>
-      <sub><a href="https://github.com/Zolli-Labs/flashml-cloud">flashml-cloud</a> · <a href="https://github.com/Zolli-Labs/flashml-examples">flashml-examples</a> · <a href="https://github.com/Zolli-Labs/zolli-demo">zolli-demo — kill the machine, keep the training run</a></sub>
+    <td valign="top">
+      <h3>⚡ <a href="https://github.com/Zolli-Labs/flashml">FlashML</a> &nbsp;<sub>by Zolli Labs</sub></h3>
+      <p>An open, <b>fault-tolerant distributed ML runtime</b> — host agent, elastic workers, and training jobs that <b>survive the machine they run on being destroyed</b>. Started as a hackday win (see the trophy shelf), now the core of <a href="https://github.com/Zolli-Labs">Zolli Labs</a>.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
+        <img src="https://img.shields.io/badge/Distributed_Training-8B5CF6?style=flat-square" alt="Distributed Training">
+        <img src="https://img.shields.io/badge/Fault_Tolerance-10B981?style=flat-square" alt="Fault Tolerance">
+        &nbsp;&nbsp;<img src="https://img.shields.io/github/languages/top/Zolli-Labs/flashml?style=flat-square&labelColor=1E293B&color=8B5CF6" alt="Top language">
+        <img src="https://img.shields.io/github/last-commit/Zolli-Labs/flashml?style=flat-square&labelColor=1E293B&color=06B6D4" alt="Last commit">
+      </p>
+      <sub>ecosystem: <a href="https://github.com/Zolli-Labs/flashml-cloud">flashml-cloud</a> · <a href="https://github.com/Zolli-Labs/flashml-examples">flashml-examples</a> · <a href="https://github.com/Zolli-Labs/zolli-demo">zolli-demo — kill the machine, keep the training run</a></sub>
     </td>
   </tr>
 </table>
@@ -49,16 +47,16 @@ I build the machinery around models — distributed training, on-device inferenc
 
 <table>
   <tr>
-    <td width="45%" valign="middle">
-      <b>A transformer in your pocket.</b> Domain-tuned FLAN-T5 exported to ONNX and benchmarked on Android ARM64 — measuring how far quantization can push a QA model on phone hardware without wrecking answer quality.
-    </td>
-    <td width="55%" valign="middle">
-      <a href="https://github.com/PhongCT1105/On-Device-Real-Estate-Assistant">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/PhongCT1105/On-Device-Real-Estate-Assistant/image?language=1&stargazers=1&forks=1&name=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Dark&logo=https%3A%2F%2Favatars.githubusercontent.com%2FPhongCT1105">
-          <img src="https://socialify.git.ci/PhongCT1105/On-Device-Real-Estate-Assistant/image?language=1&stargazers=1&forks=1&name=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Light&logo=https%3A%2F%2Favatars.githubusercontent.com%2FPhongCT1105" alt="On-Device Real-Estate Assistant repository card" width="100%">
-        </picture>
-      </a>
+    <td valign="top">
+      <h3>📱 <a href="https://github.com/PhongCT1105/On-Device-Real-Estate-Assistant">On-Device Real-Estate Assistant</a></h3>
+      <p><b>A transformer in your pocket.</b> Domain-tuned FLAN-T5 exported to ONNX and benchmarked on Android ARM64 — measuring how far quantization can push a QA model on phone hardware without wrecking answer quality.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+        <img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX Runtime">
+        <img src="https://img.shields.io/badge/FLAN--T5-06B6D4?style=flat-square" alt="FLAN-T5">
+        <img src="https://img.shields.io/badge/Android_ARM64-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android ARM64">
+        &nbsp;&nbsp;<img src="https://img.shields.io/github/languages/top/PhongCT1105/On-Device-Real-Estate-Assistant?style=flat-square&labelColor=1E293B&color=8B5CF6" alt="Top language">
+      </p>
     </td>
   </tr>
 </table>
@@ -67,23 +65,23 @@ I build the machinery around models — distributed training, on-device inferenc
 
 <table>
   <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/PhongCT1105/Hack-Research">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/PhongCT1105/Hack-Research/image?language=1&stargazers=1&forks=1&name=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Dark&logo=https%3A%2F%2Favatars.githubusercontent.com%2FPhongCT1105">
-          <img src="https://socialify.git.ci/PhongCT1105/Hack-Research/image?language=1&stargazers=1&forks=1&name=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Light&logo=https%3A%2F%2Favatars.githubusercontent.com%2FPhongCT1105" alt="LLM Hallucination Study repository card" width="100%">
-        </picture>
-      </a>
-      <sub><b>LLM Hallucination Study</b> — 96 emails · 360 claims · 12 researchers. Ungrounded LLMs fabricate <b>34%</b> of claims; grounding drops severe errors to <b>0%</b>.</sub>
+    <td width="50%" valign="top">
+      <h3>🧪 <a href="https://github.com/PhongCT1105/Hack-Research">LLM Hallucination Study</a></h3>
+      <p>Claim-level factorial study of AI-generated professor outreach — <b>96 emails · 360 claims · 12 researchers</b>. Ungrounded LLMs fabricate <b>34%</b> of claims; grounding with real publications drops severe errors to <b>0%</b>.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+        <img src="https://img.shields.io/badge/LLM_Evaluation-8B5CF6?style=flat-square" alt="LLM Evaluation">
+        <img src="https://img.shields.io/badge/Grounding_%26_RAG-06B6D4?style=flat-square" alt="Grounding and RAG">
+      </p>
     </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/PhongCT1105/transfer-learning-ad-mri-depression-classification">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/PhongCT1105/transfer-learning-ad-mri-depression-classification/image?language=1&stargazers=1&forks=1&name=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Dark&logo=https%3A%2F%2Favatars.githubusercontent.com%2FPhongCT1105">
-          <img src="https://socialify.git.ci/PhongCT1105/transfer-learning-ad-mri-depression-classification/image?language=1&stargazers=1&forks=1&name=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Light&logo=https%3A%2F%2Favatars.githubusercontent.com%2FPhongCT1105" alt="MRI transfer learning repository card" width="100%">
-        </picture>
-      </a>
-      <sub><b>Brain MRI transfer learning</b> — Alzheimer's &amp; depression classification from neuroimaging.</sub>
+    <td width="50%" valign="top">
+      <h3>🧠 <a href="https://github.com/PhongCT1105/transfer-learning-ad-mri-depression-classification">Brain MRI Transfer Learning</a></h3>
+      <p>Transfer learning on neuroimaging — classifying <b>Alzheimer's disease and depression</b> from brain MRI scans with domain-adapted vision models.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
+        <img src="https://img.shields.io/badge/Neuroimaging-10B981?style=flat-square" alt="Neuroimaging">
+      </p>
     </td>
   </tr>
 </table>

@@ -25,58 +25,70 @@ I build the machinery around models — distributed training, on-device inferenc
 
 ## ⚡ <samp>FLAGSHIP // ZOLLI LABS</samp>
 
-<p align="center">
-  <a href="https://github.com/Zolli-Labs/flashml">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/Zolli-Labs/flashml/image?description=1&language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Dark">
-      <img src="https://socialify.git.ci/Zolli-Labs/flashml/image?description=1&language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Light" alt="FlashML — open fault-tolerant distributed ML runtime" width="640">
-    </picture>
-  </a>
-</p>
-
-> **FlashML** — an open, fault-tolerant distributed ML runtime: host agent, elastic workers, and training jobs that **survive the machine they run on being destroyed**. Started as a hackday prototype (see the trophy shelf), now the core of [Zolli Labs](https://github.com/Zolli-Labs).
-
-<p align="center">
-  <sub><a href="https://github.com/Zolli-Labs/flashml-cloud">flashml-cloud</a> · <a href="https://github.com/Zolli-Labs/flashml-examples">flashml-examples</a> · <a href="https://github.com/Zolli-Labs/zolli-demo">zolli-demo — kill the machine, keep the training run</a></sub>
-</p>
+<table>
+  <tr>
+    <td width="55%" valign="middle">
+      <a href="https://github.com/Zolli-Labs/flashml">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/Zolli-Labs/flashml/image?description=1&language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Dark&logo=https%3A%2F%2Favatars.githubusercontent.com%2FZolli-Labs">
+          <img src="https://socialify.git.ci/Zolli-Labs/flashml/image?description=1&language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Light&logo=https%3A%2F%2Favatars.githubusercontent.com%2FZolli-Labs" alt="FlashML — open fault-tolerant distributed ML runtime" width="100%">
+        </picture>
+      </a>
+    </td>
+    <td width="45%" valign="middle">
+      <b>FlashML</b> — an open, fault-tolerant distributed ML runtime: host agent, elastic workers, and training jobs that <b>survive the machine they run on being destroyed</b>.
+      <br><br>
+      Started as a hackday prototype (see the trophy shelf), now the core of <a href="https://github.com/Zolli-Labs">Zolli Labs</a>.
+      <br><br>
+      <sub><a href="https://github.com/Zolli-Labs/flashml-cloud">flashml-cloud</a> · <a href="https://github.com/Zolli-Labs/flashml-examples">flashml-examples</a> · <a href="https://github.com/Zolli-Labs/zolli-demo">zolli-demo — kill the machine, keep the training run</a></sub>
+    </td>
+  </tr>
+</table>
 
 ## 🧠 <samp>LOCAL AI // MODELS THAT FIT IN A POCKET</samp>
 
-<p align="center">
-  <a href="https://github.com/PhongCT1105/On-Device-Real-Estate-Assistant">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/PhongCT1105/On-Device-Real-Estate-Assistant/image?description=1&language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Dark">
-      <img src="https://socialify.git.ci/PhongCT1105/On-Device-Real-Estate-Assistant/image?description=1&language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Light" alt="On-Device Real-Estate Assistant repository card" width="640">
-    </picture>
-  </a>
-</p>
-
-> **A transformer in your pocket.** Domain-tuned FLAN-T5 exported to ONNX and benchmarked on Android ARM64 — measuring how far quantization can push a QA model on phone hardware without wrecking answer quality.
+<table>
+  <tr>
+    <td width="45%" valign="middle">
+      <b>A transformer in your pocket.</b> Domain-tuned FLAN-T5 exported to ONNX and benchmarked on Android ARM64 — measuring how far quantization can push a QA model on phone hardware without wrecking answer quality.
+    </td>
+    <td width="55%" valign="middle">
+      <a href="https://github.com/PhongCT1105/On-Device-Real-Estate-Assistant">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/PhongCT1105/On-Device-Real-Estate-Assistant/image?language=1&stargazers=1&forks=1&name=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Dark&logo=https%3A%2F%2Favatars.githubusercontent.com%2FPhongCT1105">
+          <img src="https://socialify.git.ci/PhongCT1105/On-Device-Real-Estate-Assistant/image?language=1&stargazers=1&forks=1&name=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Light&logo=https%3A%2F%2Favatars.githubusercontent.com%2FPhongCT1105" alt="On-Device Real-Estate Assistant repository card" width="100%">
+        </picture>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## 🔬 <samp>RESEARCH LAB</samp>
 
-<p align="center">
-  <a href="https://github.com/PhongCT1105/Hack-Research">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/PhongCT1105/Hack-Research/image?description=1&language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Dark">
-      <img src="https://socialify.git.ci/PhongCT1105/Hack-Research/image?description=1&language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Light" alt="LLM Hallucination Study repository card" width="640">
-    </picture>
-  </a>
-</p>
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/PhongCT1105/Hack-Research">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/PhongCT1105/Hack-Research/image?language=1&stargazers=1&forks=1&name=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Dark&logo=https%3A%2F%2Favatars.githubusercontent.com%2FPhongCT1105">
+          <img src="https://socialify.git.ci/PhongCT1105/Hack-Research/image?language=1&stargazers=1&forks=1&name=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Light&logo=https%3A%2F%2Favatars.githubusercontent.com%2FPhongCT1105" alt="LLM Hallucination Study repository card" width="100%">
+        </picture>
+      </a>
+      <sub><b>LLM Hallucination Study</b> — 96 emails · 360 claims · 12 researchers. Ungrounded LLMs fabricate <b>34%</b> of claims; grounding drops severe errors to <b>0%</b>.</sub>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/PhongCT1105/transfer-learning-ad-mri-depression-classification">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/PhongCT1105/transfer-learning-ad-mri-depression-classification/image?language=1&stargazers=1&forks=1&name=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Dark&logo=https%3A%2F%2Favatars.githubusercontent.com%2FPhongCT1105">
+          <img src="https://socialify.git.ci/PhongCT1105/transfer-learning-ad-mri-depression-classification/image?language=1&stargazers=1&forks=1&name=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Light&logo=https%3A%2F%2Favatars.githubusercontent.com%2FPhongCT1105" alt="MRI transfer learning repository card" width="100%">
+        </picture>
+      </a>
+      <sub><b>Brain MRI transfer learning</b> — Alzheimer's &amp; depression classification from neuroimaging.</sub>
+    </td>
+  </tr>
+</table>
 
-> **LLM Hallucination Study** — a claim-level factorial study of AI-generated professor outreach (96 emails · 360 claims · 12 researchers). Ungrounded LLMs fabricate **34%** of claims; grounding with real publications drops severe errors to **0%**.
-
 <p align="center">
-  <a href="https://github.com/PhongCT1105/transfer-learning-ad-mri-depression-classification">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://socialify.git.ci/PhongCT1105/transfer-learning-ad-mri-depression-classification/image?language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Dark">
-      <img src="https://socialify.git.ci/PhongCT1105/transfer-learning-ad-mri-depression-classification/image?language=1&stargazers=1&forks=1&name=1&owner=1&pattern=Circuit%20Board&font=Source%20Code%20Pro&theme=Light" alt="MRI transfer learning repository card" width="640">
-    </picture>
-  </a>
-</p>
-
-<p align="center">
-  <sub>Transfer learning on brain MRI — Alzheimer's &amp; depression classification</sub><br>
   <sub>🔒 REU 2025 · Murai Lab — research in progress (repo private)</sub>
 </p>
 
@@ -117,13 +129,6 @@ I build the machinery around models — distributed training, on-device inferenc
 </details>
 
 ## 📊 <samp>TELEMETRY</samp>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/tokyonight/0-profile-details.svg">
-    <img src="profile-summary-card-output/default/0-profile-details.svg" alt="GitHub profile details card" width="920">
-  </picture>
-</p>
 
 <table>
   <tr>

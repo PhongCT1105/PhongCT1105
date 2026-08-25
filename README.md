@@ -55,34 +55,34 @@ I build the machinery around models — distributed training, on-device inferenc
     <td width="33%" valign="top">
       <h4 align="center"><a href="https://github.com/Zolli-Labs/flashml">FlashML</a></h4>
       <p align="center"><sub>⚡ Fault-tolerant distributed ML runtime — training jobs survive the machine being destroyed. Core of <a href="https://github.com/Zolli-Labs">Zolli Labs</a>.</sub></p>
-      <p align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"> <img src="https://img.shields.io/badge/Distributed-8B5CF6?style=flat-square" alt="Distributed Training"></p>
+      <p align="center"><img src="https://img.shields.io/badge/Python-1E293B?style=flat-square&logo=python&logoColor=FFD43B" alt="Python"> <img src="https://img.shields.io/badge/PyTorch-1E293B?style=flat-square&logo=pytorch&logoColor=EE4C2C" alt="PyTorch"> <img src="https://img.shields.io/badge/Distributed-1E293B?style=flat-square" alt="Distributed Training"></p>
     </td>
     <td width="33%" valign="top">
       <h4 align="center"><a href="https://github.com/PhongCT1105/On-Device-Real-Estate-Assistant">On-Device Assistant</a></h4>
       <p align="center"><sub>📱 FLAN-T5 → ONNX on Android ARM64 — a QA transformer in your pocket, quantized without wrecking answers.</sub></p>
-      <p align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX Runtime"> <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android"></p>
+      <p align="center"><img src="https://img.shields.io/badge/Python-1E293B?style=flat-square&logo=python&logoColor=FFD43B" alt="Python"> <img src="https://img.shields.io/badge/ONNX-1E293B?style=flat-square&logo=onnx&logoColor=white" alt="ONNX Runtime"> <img src="https://img.shields.io/badge/Android-1E293B?style=flat-square&logo=android&logoColor=3DDC84" alt="Android"></p>
     </td>
     <td width="33%" valign="top">
       <h4 align="center"><a href="https://github.com/PhongCT1105/Hack-Research">LLM Hallucination Study</a></h4>
       <p align="center"><sub>🧪 360-claim factorial study — grounding drops severe LLM fabrications from <b>34%</b> to <b>0%</b>.</sub></p>
-      <p align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/LLM_Evals-8B5CF6?style=flat-square" alt="LLM Evaluation"> <img src="https://img.shields.io/badge/RAG-06B6D4?style=flat-square" alt="Grounding and RAG"></p>
+      <p align="center"><img src="https://img.shields.io/badge/Python-1E293B?style=flat-square&logo=python&logoColor=FFD43B" alt="Python"> <img src="https://img.shields.io/badge/LLM_Evals-1E293B?style=flat-square" alt="LLM Evaluation"> <img src="https://img.shields.io/badge/RAG-1E293B?style=flat-square" alt="Grounding and RAG"></p>
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top">
       <h4 align="center"><a href="https://github.com/PhongCT1105/transfer-learning-ad-mri-depression-classification">Brain MRI Transfer Learning</a></h4>
       <p align="center"><sub>🧠 Alzheimer's &amp; depression classification from brain MRI scans with domain-adapted vision models.</sub></p>
-      <p align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"> <img src="https://img.shields.io/badge/Neuroimaging-10B981?style=flat-square" alt="Neuroimaging"></p>
+      <p align="center"><img src="https://img.shields.io/badge/Python-1E293B?style=flat-square&logo=python&logoColor=FFD43B" alt="Python"> <img src="https://img.shields.io/badge/PyTorch-1E293B?style=flat-square&logo=pytorch&logoColor=EE4C2C" alt="PyTorch"> <img src="https://img.shields.io/badge/Neuroimaging-1E293B?style=flat-square" alt="Neuroimaging"></p>
     </td>
     <td width="33%" valign="top">
       <h4 align="center"><a href="https://github.com/PhongCT1105/neetcode-gpt">neetcode-gpt</a></h4>
       <p align="center"><sub>🔩 A working GPT assembled from self-implemented parts — BPE, grouped-query attention, KV cache, training loops.</sub></p>
-      <p align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"> <img src="https://img.shields.io/badge/Transformers-8B5CF6?style=flat-square" alt="Transformers"></p>
+      <p align="center"><img src="https://img.shields.io/badge/Python-1E293B?style=flat-square&logo=python&logoColor=FFD43B" alt="Python"> <img src="https://img.shields.io/badge/PyTorch-1E293B?style=flat-square&logo=pytorch&logoColor=EE4C2C" alt="PyTorch"> <img src="https://img.shields.io/badge/Transformers-1E293B?style=flat-square" alt="Transformers"></p>
     </td>
     <td width="33%" valign="top">
       <h4 align="center"><a href="https://github.com/PhongCT1105/Repo2Resume">Repo2Resume</a></h4>
       <p align="center"><sub>🚀 Turns GitHub repositories into STAR-method resume bullets and tailored cover letters. GoatHacks winner.</sub></p>
-      <p align="center"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/badge/React-087EA4?style=flat-square&logo=react&logoColor=white" alt="React"> <img src="https://img.shields.io/badge/LLM-8B5CF6?style=flat-square" alt="LLM"></p>
+      <p align="center"><img src="https://img.shields.io/badge/TypeScript-1E293B?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript"> <img src="https://img.shields.io/badge/React-1E293B?style=flat-square&logo=react&logoColor=61DAFB" alt="React"> <img src="https://img.shields.io/badge/LLM-1E293B?style=flat-square" alt="LLM"></p>
     </td>
   </tr>
 </table>
@@ -157,10 +157,22 @@ I build the machinery around models — distributed training, on-device inferenc
 
 ## 🛠 <samp>STACK</samp>
 
-`PyTorch` · `ONNX Runtime` · `Python` · `TypeScript / React` · `FastAPI` · `PostgreSQL` · `Docker` · `AWS` · `Runpod` · `MCP`
+<p align="center">
+  <img src="https://img.shields.io/badge/PyTorch-1E293B?style=flat-square&logo=pytorch&logoColor=EE4C2C" alt="PyTorch">
+  <img src="https://img.shields.io/badge/ONNX_Runtime-1E293B?style=flat-square&logo=onnx&logoColor=white" alt="ONNX Runtime">
+  <img src="https://img.shields.io/badge/Python-1E293B?style=flat-square&logo=python&logoColor=FFD43B" alt="Python">
+  <img src="https://img.shields.io/badge/TypeScript-1E293B?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript">
+  <img src="https://img.shields.io/badge/React-1E293B?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/FastAPI-1E293B?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI">
+  <img src="https://img.shields.io/badge/PostgreSQL-1E293B?style=flat-square&logo=postgresql&logoColor=4FC3F7" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Docker-1E293B?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker">
+  <img src="https://img.shields.io/badge/AWS-1E293B?style=flat-square" alt="AWS">
+  <img src="https://img.shields.io/badge/Runpod-1E293B?style=flat-square" alt="Runpod">
+  <img src="https://img.shields.io/badge/MCP-1E293B?style=flat-square" alt="MCP">
+</p>
 
 ## 📡 <samp>CONTACT</samp>
 
-[![GitHub](https://img.shields.io/badge/GitHub-PhongCT1105-8B5CF6?style=for-the-badge&logo=github&labelColor=1E293B)](https://github.com/PhongCT1105)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-phongct1105-06B6D4?style=for-the-badge&logo=linkedin&labelColor=1E293B)](https://www.linkedin.com/in/phongct1105)
-[![Email](https://img.shields.io/badge/Email-phongct1105%40gmail.com-10B981?style=for-the-badge&logo=gmail&labelColor=1E293B)](mailto:phongct1105@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-PhongCT1105-1E293B?style=for-the-badge&logo=github&logoColor=C084FC&labelColor=0B0D17)](https://github.com/PhongCT1105)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-phongct1105-1E293B?style=for-the-badge&logo=linkedin&logoColor=22D3EE&labelColor=0B0D17)](https://www.linkedin.com/in/phongct1105)
+[![Email](https://img.shields.io/badge/Email-phongct1105%40gmail.com-1E293B?style=for-the-badge&logo=gmail&logoColor=4ADE80&labelColor=0B0D17)](mailto:phongct1105@gmail.com)

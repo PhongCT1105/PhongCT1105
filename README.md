@@ -23,82 +23,65 @@ I build the machinery around models — distributed training, on-device inferenc
   <sub>every green block is a real commit — the ship re-fights this battle daily via GitHub Actions</sub>
 </p>
 
-## 🚀 <samp>SYSTEMS GRID</samp>
+## 🚀 <samp>TOP SYSTEMS</samp>
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <sub><samp>⚡ FLAGSHIP // ZOLLI LABS</samp></sub>
-      <h3><a href="https://github.com/Zolli-Labs/flashml">FlashML</a></h3>
-      <p>An open, <b>fault-tolerant distributed ML runtime</b> — host agent, elastic workers, and training jobs that <b>survive the machine they run on being destroyed</b>. Started as a hackday win, now the core of <a href="https://github.com/Zolli-Labs">Zolli Labs</a>.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
-        <img src="https://img.shields.io/badge/Distributed_Training-8B5CF6?style=flat-square" alt="Distributed Training">
-        <img src="https://img.shields.io/badge/Fault_Tolerance-10B981?style=flat-square" alt="Fault Tolerance">
-        <img src="https://img.shields.io/github/languages/top/Zolli-Labs/flashml?style=flat-square&labelColor=1E293B&color=8B5CF6" alt="Top language">
-        <img src="https://img.shields.io/github/last-commit/Zolli-Labs/flashml?style=flat-square&labelColor=1E293B&color=06B6D4" alt="Last commit">
-      </p>
-      <sub>ecosystem: <a href="https://github.com/Zolli-Labs/flashml-cloud">flashml-cloud</a> · <a href="https://github.com/Zolli-Labs/flashml-examples">flashml-examples</a> · <a href="https://github.com/Zolli-Labs/zolli-demo">zolli-demo</a></sub>
+    <td width="33%" valign="top">
+      <h4 align="center"><a href="https://github.com/Zolli-Labs/flashml">FlashML</a></h4>
+      <p align="center"><sub>⚡ Fault-tolerant distributed ML runtime — training jobs survive the machine being destroyed. Core of <a href="https://github.com/Zolli-Labs">Zolli Labs</a>.</sub></p>
+      <p align="center"><img src="https://img.shields.io/github/languages/top/Zolli-Labs/flashml?style=flat-square&labelColor=1E293B&color=8B5CF6" alt="Top language"></p>
     </td>
-    <td width="50%" valign="top">
-      <sub><samp>🧠 LOCAL AI // ON-DEVICE</samp></sub>
-      <h3><a href="https://github.com/PhongCT1105/On-Device-Real-Estate-Assistant">On-Device Real-Estate Assistant</a></h3>
-      <p><b>A transformer in your pocket.</b> Domain-tuned FLAN-T5 exported to ONNX and benchmarked on Android ARM64 — how far can quantization push a QA model on phone hardware without wrecking answer quality?</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-        <img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX Runtime">
-        <img src="https://img.shields.io/badge/FLAN--T5-06B6D4?style=flat-square" alt="FLAN-T5">
-        <img src="https://img.shields.io/badge/Android_ARM64-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android ARM64">
-        <img src="https://img.shields.io/github/languages/top/PhongCT1105/On-Device-Real-Estate-Assistant?style=flat-square&labelColor=1E293B&color=8B5CF6" alt="Top language">
-      </p>
+    <td width="33%" valign="top">
+      <h4 align="center"><a href="https://github.com/PhongCT1105/On-Device-Real-Estate-Assistant">On-Device Assistant</a></h4>
+      <p align="center"><sub>📱 FLAN-T5 → ONNX on Android ARM64 — a QA transformer in your pocket, quantized without wrecking answers.</sub></p>
+      <p align="center"><img src="https://img.shields.io/github/languages/top/PhongCT1105/On-Device-Real-Estate-Assistant?style=flat-square&labelColor=1E293B&color=8B5CF6" alt="Top language"></p>
+    </td>
+    <td width="33%" valign="top">
+      <h4 align="center"><a href="https://github.com/PhongCT1105/Hack-Research">LLM Hallucination Study</a></h4>
+      <p align="center"><sub>🧪 360-claim factorial study — grounding drops severe LLM fabrications from <b>34%</b> to <b>0%</b>.</sub></p>
+      <p align="center"><img src="https://img.shields.io/github/languages/top/PhongCT1105/Hack-Research?style=flat-square&labelColor=1E293B&color=8B5CF6" alt="Top language"></p>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <sub><samp>🔬 RESEARCH // LLM RELIABILITY</samp></sub>
-      <h3><a href="https://github.com/PhongCT1105/Hack-Research">LLM Hallucination Study</a></h3>
-      <p>Claim-level factorial study of AI-generated professor outreach — <b>96 emails · 360 claims · 12 researchers</b>. Ungrounded LLMs fabricate <b>34%</b> of claims; grounding drops severe errors to <b>0%</b>.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-        <img src="https://img.shields.io/badge/LLM_Evaluation-8B5CF6?style=flat-square" alt="LLM Evaluation">
-        <img src="https://img.shields.io/badge/Grounding_%26_RAG-06B6D4?style=flat-square" alt="Grounding and RAG">
-      </p>
+    <td width="33%" valign="top">
+      <h4 align="center"><a href="https://github.com/PhongCT1105/transfer-learning-ad-mri-depression-classification">Brain MRI Transfer Learning</a></h4>
+      <p align="center"><sub>🧠 Alzheimer's &amp; depression classification from brain MRI scans with domain-adapted vision models.</sub></p>
+      <p align="center"><img src="https://img.shields.io/github/languages/top/PhongCT1105/transfer-learning-ad-mri-depression-classification?style=flat-square&labelColor=1E293B&color=8B5CF6" alt="Top language"></p>
     </td>
-    <td width="50%" valign="top">
-      <sub><samp>🔬 RESEARCH // NEUROIMAGING</samp></sub>
-      <h3><a href="https://github.com/PhongCT1105/transfer-learning-ad-mri-depression-classification">Brain MRI Transfer Learning</a></h3>
-      <p>Transfer learning on neuroimaging — classifying <b>Alzheimer's disease and depression</b> from brain MRI scans with domain-adapted vision models.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
-        <img src="https://img.shields.io/badge/Neuroimaging-10B981?style=flat-square" alt="Neuroimaging">
-      </p>
+    <td width="33%" valign="top">
+      <h4 align="center"><a href="https://github.com/PhongCT1105/neetcode-gpt">neetcode-gpt</a></h4>
+      <p align="center"><sub>🔩 A working GPT assembled from self-implemented parts — BPE, grouped-query attention, KV cache, training loops.</sub></p>
+      <p align="center"><img src="https://img.shields.io/github/languages/top/PhongCT1105/neetcode-gpt?style=flat-square&labelColor=1E293B&color=8B5CF6" alt="Top language"></p>
+    </td>
+    <td width="33%" valign="top">
+      <h4 align="center"><a href="https://github.com/PhongCT1105/Repo2Resume">Repo2Resume</a></h4>
+      <p align="center"><sub>🚀 Turns GitHub repositories into STAR-method resume bullets and tailored cover letters. GoatHacks winner.</sub></p>
+      <p align="center"><img src="https://img.shields.io/github/languages/top/PhongCT1105/Repo2Resume?style=flat-square&labelColor=1E293B&color=8B5CF6" alt="Top language"></p>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <sub>🔒 REU 2025 · Murai Lab — research in progress (repo private)</sub>
+  <a href="https://github.com/PhongCT1105?tab=repositories"><img src="https://img.shields.io/badge/ALL_MY_REPOS-8B5CF6?style=for-the-badge&logo=github&logoColor=white&labelColor=1E293B" alt="All my repositories"></a>
 </p>
 
-## 🏆 <samp>TROPHY SHELF // HACKATHON WINS</samp>
+<p align="center">
+  <sub>🔒 also in the lab: REU 2025 · Murai Lab — research in progress (repo private)</sub>
+</p>
+
+<details>
+<summary><b>🏆 <samp>TROPHY SHELF // HACKATHON RECORD</samp></b></summary>
+<br>
 
 | | Event | Build |
 |---|---|---|
 | 🏆 | Runpod Flash Hackday '26 | [FlashML](https://github.com/PhongCT1105/FlashML) — distributed ML engine, later grew into the Zolli Labs runtime |
 | 🏆 | Berkeley AI Hackathon '26 | [AI Hack Berkeley build](https://github.com/PhongCT1105/AI_Hack_Berkeley) |
 | 🏆 | BetaFund × Stanford Hack | Cortex — team project (repo lives on a teammate's account) |
-| 🏆 | HackResearch '26 | [LLM Hallucination Study](https://github.com/PhongCT1105/Hack-Research) — the research above started as a hackathon win |
+| 🏆 | HackResearch '26 | [LLM Hallucination Study](https://github.com/PhongCT1105/Hack-Research) — started as a hackathon win |
 | 🏆 | GoatHacks '25 | [Repo2Resume](https://github.com/PhongCT1105/Repo2Resume) — GitHub repos → STAR-method resume bullets |
 | 🏆 | NASA Space Apps Challenge '25 | [Space Apps build](https://github.com/PhongCT1105/NASA_Space_App_Challenge) |
-
-<details>
-<summary><samp>▸ FULL HACKATHON RECORD</samp></summary>
-<br>
-
-| | Event | Build |
-|---|---|---|
 | ⚙️ | YC Hackathon '26 | [YC_Hack](https://github.com/PhongCT1105/YC_Hack) |
 | ⚙️ | Okta × Stripe Hack '26 | [okta_stripe_hack](https://github.com/PhongCT1105/okta_stripe_hack) |
 | ⚙️ | Gen UI Hack '26 | [Gen_UI_Hack](https://github.com/PhongCT1105/Gen_UI_Hack) |
@@ -109,16 +92,18 @@ I build the machinery around models — distributed training, on-device inferenc
 </details>
 
 <details>
-<summary><samp>▸ MORE SYSTEMS</samp></summary>
+<summary><b>🗄 <samp>MORE SYSTEMS</samp></b></summary>
 <br>
 
-- **[neetcode-gpt](https://github.com/PhongCT1105/neetcode-gpt)** — a working GPT assembled entirely from self-implemented parts: BPE tokenizer, multi-head + grouped-query attention, KV cache, RMS/layer norm, training and generation loops
+- **[SyntheSearch](https://github.com/PhongCT1105/SyntheSearch)** — AI research tool that finds and synthesizes the most relevant papers
 - **[On_Device_Deep_Learning](https://github.com/PhongCT1105/On_Device_Deep_Learning)** — deep learning benchmarks on phone hardware
 - **[RecSys_MAG](https://github.com/PhongCT1105/RecSys_MAG)** — recommender-system experiments on academic graph data
 
 </details>
 
-## 📊 <samp>TELEMETRY</samp>
+<details>
+<summary><b>📊 <samp>TELEMETRY // STATS &amp; ACTIVITY</samp></b></summary>
+<br>
 
 <table>
   <tr>
@@ -146,6 +131,8 @@ I build the machinery around models — distributed training, on-device inferenc
 <p align="center">
   <sub>all telemetry regenerates itself daily — this profile is a running system, not a static page</sub>
 </p>
+
+</details>
 
 ## 🛠 <samp>ARSENAL</samp>
 

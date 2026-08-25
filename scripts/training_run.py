@@ -30,6 +30,9 @@ QUERY = """
 query($login: String!) {
   user(login: $login) {
     createdAt
+    repositories(first: 100, ownerAffiliations: OWNER, privacy: PUBLIC) {
+      nodes { stargazerCount }
+    }
     contributionsCollection {
       contributionCalendar {
         totalContributions
@@ -87,6 +90,7 @@ def metrics(user):
 
     return {
         "epoch": epoch,
+        "stars": sum(r["stargazerCount"] for r in user["repositories"]["nodes"]),
         "samples": cal["totalContributions"],
         "acc": acc,
         "loss": loss,
@@ -132,8 +136,10 @@ def render(m):
         text(218, 34, "· job: phong-profile", SLATE, 13),
         text(W - 28, 34, f"node: github-actions · epoch {m['epoch']}", CYAN, 13, anchor="end"),
         f"<line x1='24' y1='48' x2='{W-24}' y2='48' stroke='{EDGE}'/>",
+        # plain-English concept line so the card explains itself
+        text(28, 66, "concept // commits = training data · consistency = metrics · ⭐ star = reward", SLATE, 11),
         # sample lane: last 14 days of real contributions
-        text(28, 74, "samples in · last 14 days", DIM, 10),
+        text(28, 86, "samples in · last 14 days", DIM, 10),
     ]
 
     lane_y, model_x = 100, 600
@@ -188,7 +194,7 @@ def render(m):
         f"<circle r='4' fill='{CYAN}'><animateMotion dur='6s' repeatCount='indefinite' path='{path_d}'/></circle>",
         # footer
         f"<line x1='24' y1='252' x2='{W-24}' y2='252' stroke='{EDGE}'/>",
-        text(28, 276, f"samples: {m['samples']:,} contributions · uptime: {m['streak']}d streak", SLATE, 12),
+        text(28, 276, f"samples: {m['samples']:,} · reward: ★{m['stars']} · uptime: {m['streak']}d streak", SLATE, 12),
         text(452, 276, f"✓ job survived {m['restarts']} machine restarts", GREEN, 12, weight="700"),
         f"<rect x='{W - 180}' y='266' width='7' height='13' fill='{CYAN}'>"
         f"<animate attributeName='opacity' values='1;0;1' dur='1.2s' repeatCount='indefinite'/></rect>",

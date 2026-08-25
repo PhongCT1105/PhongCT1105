@@ -20,8 +20,24 @@ I build the machinery around models — distributed training, on-device inferenc
 </p>
 
 <p align="center">
-  <sub>not a mockup — every number is computed daily from my real contribution history by <a href="scripts/training_run.py">a generator I wrote</a> + GitHub Actions. gaps in my commit graph count as machine crashes the job survived.</sub>
+  <sub><b>the concept:</b> this profile is a machine-learning model and my commits are its training data — the more consistently I ship, the better its metrics. GitHub Actions retrains it every night with <a href="scripts/training_run.py">a generator I wrote</a>. <b>⭐ starring a repo sends it reward signal.</b></sub>
 </p>
+
+<details>
+<summary><sub>🧾 how to read the card</sub></summary>
+<br>
+
+| On the card | What it really is |
+|---|---|
+| green dots → `MODEL` | my last 14 days of commits, fed in as training samples |
+| `epoch` | days since this account was created — one training pass per day |
+| `acc` | % of the last 52 weeks I shipped something — consistency as accuracy |
+| `loss` | 1 ÷ (1 + my avg daily contributions) — the more I commit, the lower it drops |
+| the curve | my real last 26 weeks — quiet weeks spike the loss |
+| `reward ★` | total stars on my repos — one click, straight into the metrics |
+| `✓ survived N machine restarts` | every gap in my commit graph the job recovered from — fault tolerance, the thing <a href="https://github.com/Zolli-Labs/flashml">FlashML</a> actually does |
+
+</details>
 
 ## 🕹️ <samp>ARCADE // CONTRIBUTIONS UNDER FIRE</samp>
 

@@ -1,11 +1,11 @@
 <div align="center">
 
-# Phong Cao
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=800&color=C084FC&center=true&vCenter=true&width=460&lines=ML+Infrastructure;LLM+Systems;Agent+Tooling;On-Device+Inference">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=800&color=7C3AED&center=true&vCenter=true&width=460&lines=ML+Infrastructure;LLM+Systems;Agent+Tooling;On-Device+Inference" alt="ML Infrastructure · LLM Systems · Agent Tooling · On-Device Inference">
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=2200&pause=1000&color=C084FC&center=true&vCenter=true&width=420&height=64&lines=Phong+Cao&repeat=false">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=2200&pause=1000&color=7C3AED&center=true&vCenter=true&width=420&height=64&lines=Phong+Cao&repeat=false" alt="Phong Cao">
 </picture>
+
+<samp><b>ML INFRASTRUCTURE&nbsp;&nbsp;·&nbsp;&nbsp;DISTRIBUTED TRAINING&nbsp;&nbsp;·&nbsp;&nbsp;LLM SYSTEMS&nbsp;&nbsp;·&nbsp;&nbsp;ON-DEVICE INFERENCE</b></samp>
 
 I build the machinery around models — distributed training, on-device inference, agent tool infrastructure, and evaluation systems that catch hallucinations before users do.
 
